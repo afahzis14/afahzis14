@@ -119,7 +119,7 @@ Saya seorang profesional di bidang IT dengan pengalaman IT Support dan pengemban
 ### Portofolio Pilihan
 
 <p align="center">
-  <a href="https://github.com/afahzis14/hus_laravel_backup" title="Helpdesk & Asset Management">
+  <a href="https://github.com/afahzis14/hush_laravel" title="Helpdesk & Asset Management">
     <img src="./assets/project1.svg" alt="Helpdesk & Asset Management" width="31%"/>
   </a>
   <a href="https://github.com/afahzis14/hush_flutter" title="Mobile Tracking App">
