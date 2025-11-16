@@ -15,7 +15,6 @@
   </p>
 
   <!-- Statistik -->
-  <h3>📈 Statistik</h3>
   <p>
     <a href="https://github.com/afahzis14">
       <img src="https://github-readme-stats.vercel.app/api?username=afahzis14&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" height="165" />
@@ -31,11 +30,11 @@
   </p>
 
   <!-- Opsional: Grafik aktivitas -->
+  <p>
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=afahzis14&theme=dracula&hide_border=true" alt="Activity Graph" width="95%" />
   <br />
+  </p>
 </div>
-
-> Ganti `afahzis14` di URL gambar agar statistik menampilkan data GitHub yang sesuai.
 
 ---
 
