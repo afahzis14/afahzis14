@@ -14,10 +14,35 @@
   <img alt="Mindset: Continuous Learning" src="https://img.shields.io/badge/Mindset-Continuous%20Learning-6366f1?style=for-the-badge&labelColor=0b1221&color=6366f1">
   <img alt="Workstyle: Problem Solver" src="https://img.shields.io/badge/Workstyle-Problem%20Solver-22c55e?style=for-the-badge&labelColor=0b1221&color=22c55e">
 
+  <br/>
+
+  <a href="https://github.com/afahzi14?tab=repositories" target="_blank">
+    <img alt="View Repos" src="https://img.shields.io/badge/Repos-Explore-1f6feb?style=for-the-badge&labelColor=0b1221&logo=github"/>
+  </a>
+  <a href="mailto:EMAIL_ANDA" target="_blank">
+    <img alt="Email" src="https://img.shields.io/badge/Email-Contact-22c55e?style=for-the-badge&labelColor=0b1221&logo=gmail&logoColor=fff"/>
+  </a>
+  <a href="https://www.linkedin.com/in/LINKEDIN_ANDA" target="_blank">
+    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&labelColor=0b1221&logo=linkedin&logoColor=fff"/>
+  </a>
+
 </div>
 
 <p align="center">
   <img src="./assets/divider.svg" alt="divider" width="100%"/>
+</p>
+
+<!-- Highlights row -->
+<p align="center">
+  <a href="#" title="Reliable Backend">
+    <img alt="Reliable Backend" src="https://img.shields.io/badge/Reliable-Backend-0ea5e9?style=for-the-badge&labelColor=0b1221"/>
+  </a>
+  <a href="#" title="Performant Mobile">
+    <img alt="Performant Mobile" src="https://img.shields.io/badge/Performant-Mobile-22c55e?style=for-the-badge&labelColor=0b1221"/>
+  </a>
+  <a href="#" title="Clean Architecture">
+    <img alt="Clean Architecture" src="https://img.shields.io/badge/Clean-Architecture-6366f1?style=for-the-badge&labelColor=0b1221"/>
+  </a>
 </p>
 
 ### Tentang Saya
@@ -28,6 +53,12 @@ Saya seorang profesional yang antusias di bidang IT dengan pengalaman pada dukun
 - **Pengembangan Web** dengan Laravel (REST API, autentikasi, arsitektur bersih)
 - **Pengembangan Mobile** menggunakan Flutter dan Kotlin (UI modern, performa)
 - **Kolaborasi** lintas tim dengan dokumentasi yang rapi dan komunikasi efektif
+
+<p align="center">
+  <img alt="Focus Reliability" src="https://img.shields.io/badge/Focus-Reliability-1f6feb?style=flat-square&labelColor=0b1221"/>
+  <img alt="Documentation" src="https://img.shields.io/badge/Docs-Clear%20%26%20Helpful-22c55e?style=flat-square&labelColor=0b1221"/>
+  <img alt="Teamwork" src="https://img.shields.io/badge/Teamwork-Effective-6366f1?style=flat-square&labelColor=0b1221"/>
+</p>
 
 <table>
   <tr>
@@ -247,11 +278,15 @@ Ganti `afahzis14` dan `hush_laravel` dengan proyek Anda.
 - 🔧 Saat ini: menata struktur proyek agar mudah di-scale dan di-maintain
 - 📚 Pembelajaran: praktik arsitektur modular, CI/CD ringan, dan observability
 
+<p align="center">
+  <img alt="Badges Cloud" src="https://img.shields.io/badge/Stack-PHP%20%7C%20Laravel%20%7C%20Flutter%20%7C%20Kotlin%20%7C%20Docker%20%7C%20Linux-0b1221?style=for-the-badge&logo=github&logoColor=fff&color=1f6feb"/>
+</p>
+
 <div align="center">
 
-  <img alt="Visitors" src="https://komarev.com/ghpvc/?username=afahzis14&label=Visitors&color=1f6feb&style=flat" />
-
-</div>
+  <img alt="Visitors" src="https://komarev.com/ghpvc/?username=afahzi14&label=Visitors&color=1f6feb&style=flat" />
+ 
+ </div>
 
 <p align="center">
   <sub>Terinspirasi dari profil modern namun dengan gaya visual berbeda, memprioritaskan keterbacaan dan tema glass‑neon yang bersih.</sub>
