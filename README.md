@@ -6,6 +6,9 @@
 
   <br/>
 
+  <!-- Typing intro (distinct theme) -->
+  <img alt="Typing intro" src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=20&duration=3000&pause=1200&color=22C55E&center=true&vCenter=true&random=false&width=700&lines=Hello%2C+I'm+Afriza+Fahmi+Azis;IT+Support+%7C+Laravel+Developer+%7C+Flutter+%26+Kotlin+Developer;Build+reliable+backend+%26+performant+mobile+apps" />
+
   <!-- Quick badges -->
   <img alt="Focus: Backend & Mobile" src="https://img.shields.io/badge/Focus-Backend%20%26%20Mobile-0ea5e9?style=for-the-badge&labelColor=0b1221&color=0ea5e9">
   <img alt="Mindset: Continuous Learning" src="https://img.shields.io/badge/Mindset-Continuous%20Learning-6366f1?style=for-the-badge&labelColor=0b1221&color=6366f1">
@@ -82,12 +85,33 @@ Saya seorang profesional yang antusias di bidang IT dengan pengalaman pada dukun
     ![Figma](https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=fff)
     ![Postman](https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=fff)
 
+<!-- Visual stacks via skillicons (distinct vs reference repo by arrangement/colors) -->
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=php,laravel,composer,mysql,postgres,docker,nginx,linux,git,github,gitlab&perline=11" alt="Backend & Tools"/>
+  <br/>
+  <img src="https://skillicons.dev/icons?i=dart,flutter,kotlin,androidstudio,firebase,figma,postman,vscode&perline=10" alt="Mobile & Productivity"/>
+</p>
+
 ### Sorotan Pengalaman
 
 - Menangani insiden dan permintaan IT harian dengan prioritas dan SLA yang jelas
 - Membangun backend API Laravel dengan autentikasi, otorisasi, dan dokumentasi
 - Mengembangkan aplikasi mobile Flutter/Kotlin dengan arsitektur yang terstruktur
 - Menyusun pipeline sederhana untuk build/test, serta praktik code review yang sehat
+
+### Fokus & Pembelajaran Saat Ini
+
+- Backend Reliability
+  <br/>
+  <meter min="0" max="100" value="80">80%</meter> 80% — observability, queue, retry, graceful shutdown
+
+- Flutter Performance
+  <br/>
+  <meter min="0" max="100" value="70">70%</meter> 70% — state mgmt, lazy lists, image caching
+
+- Kotlin/Android
+  <br/>
+  <meter min="0" max="100" value="60">60%</meter> 60% — Jetpack components, clean arch modules
 
 <p align="center">
   <img src="./assets/divider.svg" alt="divider" width="100%"/>
@@ -135,6 +159,11 @@ Ganti `afahzi14` di bawah ini dengan username GitHub Anda agar kartu aktif.
 
   <img height="150" alt="Streak" src="https://streak-stats.demolab.com?user=afahzi14&theme=tokyonight&hide_border=true" />
 
+  <br/><br/>
+
+  <!-- Activity graph (distinct visual) -->
+  <img alt="Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=afahzi14&theme=tokyo-night&hide_border=true" />
+
 </div>
 
 ### Proyek yang Disorot (Pinned)
@@ -144,12 +173,26 @@ Ganti `afahzi14` dan `repo-name` dengan proyek Anda.
 <div align="center">
 
   <a href="https://github.com/afahzi14/repo-name">
-    <img height="120" alt="Pinned Repo 1" src="https://github-readme-stats.vercel.app/api/pin/?username=afahzi14&repo=repo-name&theme=tokyonight&hide_border=true" />
+    <img height="130" alt="Pinned Repo 1" src="https://github-readme-stats.vercel.app/api/pin/?username=afahzi14&repo=repo-name&theme=tokyonight&hide_border=true" />
   </a>
   <a href="https://github.com/afahzi14/repo-name-2">
-    <img height="120" alt="Pinned Repo 2" src="https://github-readme-stats.vercel.app/api/pin/?username=afahzi14&repo=repo-name-2&theme=tokyonight&hide_border=true" />
+    <img height="130" alt="Pinned Repo 2" src="https://github-readme-stats.vercel.app/api/pin/?username=afahzi14&repo=repo-name-2&theme=tokyonight&hide_border=true" />
   </a>
 
+</div>
+
+### CTA
+
+<div align="center">
+  <a href="https://your-portfolio.example.com" target="_blank">
+    <img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-Visit-0ea5e9?style=for-the-badge&logoColor=fff&labelColor=0b1221">
+  </a>
+  <a href="mailto:EMAIL_ANDA" target="_blank">
+    <img alt="Email Me" src="https://img.shields.io/badge/Email-Get%20In%20Touch-22c55e?style=for-the-badge&logo=gmail&logoColor=fff&labelColor=0b1221">
+  </a>
+  <a href="https://your-cv-link.example.com" target="_blank">
+    <img alt="Download CV" src="https://img.shields.io/badge/CV-Download-6366f1?style=for-the-badge&logoColor=fff&labelColor=0b1221">
+  </a>
 </div>
 
 ### Terhubung dengan Saya
@@ -184,3 +227,7 @@ Ganti `afahzi14` dan `repo-name` dengan proyek Anda.
   <img alt="Visitors" src="https://komarev.com/ghpvc/?username=afahzi14&label=Visitors&color=1f6feb&style=flat" />
 
 </div>
+
+<p align="center">
+  <sub>Terinspirasi dari profil modern namun dengan gaya visual berbeda, memprioritaskan keterbacaan dan tema glass‑neon yang bersih.</sub>
+</p>
