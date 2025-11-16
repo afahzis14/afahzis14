@@ -92,6 +92,14 @@ Saya seorang profesional yang antusias di bidang IT dengan pengalaman pada dukun
   <img src="https://skillicons.dev/icons?i=dart,flutter,kotlin,androidstudio,firebase,figma,postman,vscode&perline=10" alt="Mobile & Productivity"/>
 </p>
 
+<p align="center">
+  <img alt="Stack visual" src="./assets/stack.svg" width="100%"/>
+</p>
+
+<p align="center">
+  <img alt="Services" src="./assets/services.svg" width="100%"/>
+</p>
+
 ### Sorotan Pengalaman
 
 - Menangani insiden dan permintaan IT harian dengan prioritas dan SLA yang jelas
@@ -121,9 +129,17 @@ Saya seorang profesional yang antusias di bidang IT dengan pengalaman pada dukun
 
 <!-- Ganti link/teks di bawah dengan proyek nyata Anda -->
 
-- Sistem Helpdesk/Asset Management (Laravel) – fokus ke reliability dan audit trail
-- Aplikasi Mobile Tracking (Flutter) – desain modular, offline-first, dan caching
-- Portal Internal (Laravel + MySQL) – role-based access control dan laporan PDF
+<p align="center">
+  <a href="https://github.com/afahzi14/repo-name" title="Helpdesk & Asset Management">
+    <img src="./assets/project1.svg" alt="Helpdesk & Asset Management" width="31%"/>
+  </a>
+  <a href="https://github.com/afahzi14/repo-name-2" title="Mobile Tracking App">
+    <img src="./assets/project2.svg" alt="Mobile Tracking App" width="31%"/>
+  </a>
+  <a href="#" title="Internal Portal">
+    <img src="./assets/project3.svg" alt="Internal Portal" width="31%"/>
+  </a>
+</p>
 
 <details>
 <summary><b>Detail Teknis Tambahan</b></summary>
@@ -163,6 +179,10 @@ Ganti `afahzi14` di bawah ini dengan username GitHub Anda agar kartu aktif.
 
   <!-- Activity graph (distinct visual) -->
   <img alt="Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=afahzi14&theme=tokyo-night&hide_border=true" />
+
+  <br/>
+
+  <img alt="Trophies" src="https://github-profile-trophy.vercel.app/?username=afahzi14&theme=onestar&no-frame=true&row=1&column=6" />
 
 </div>
 
