@@ -23,7 +23,7 @@
 </div>
 
 <p align="center">
-  <img src="./assets/separator_zigzag.svg" alt="separator" width="100%"/>
+  <img src="./assets/anim_wave.svg" alt="animated wave" width="100%"/>
 </p>
 
 <p align="center">
@@ -32,6 +32,9 @@
   <img alt="Highlight CleanArch" src="https://img.shields.io/badge/Clean-Architecture-6366f1?style=for-the-badge&labelColor=0b1221"/>
 </p>
 
+<p align="center">
+  <img src="./assets/anim_pulse.svg" alt="pulse animation" />
+</p>
 
 ### Tentang Saya
 Saya seorang profesional di bidang IT dengan pengalaman IT Support dan pengembangan aplikasi web/mobile. Fokus pada reliability, arsitektur bersih, dan kolaborasi efektif.
