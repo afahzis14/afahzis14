@@ -17,14 +17,14 @@
   <img src="./assets/divider.svg" alt="divider" width="100%"/>
 </p>
 
-
 ### Tentang Saya
+
 Saya seorang profesional yang antusias di bidang IT dengan pengalaman pada dukungan teknis (IT Support) serta pengembangan aplikasi web dan mobile. Saya fokus pada:
+
 - **Stabilitas & Keandalan** dalam operasional sistem dan infrastruktur
 - **Pengembangan Web** dengan Laravel (REST API, autentikasi, arsitektur bersih)
 - **Pengembangan Mobile** menggunakan Flutter dan Kotlin (UI modern, performa)
 - **Kolaborasi** lintas tim dengan dokumentasi yang rapi dan komunikasi efektif
-
 
 <table>
   <tr>
@@ -50,9 +50,9 @@ Saya seorang profesional yang antusias di bidang IT dengan pengalaman pada dukun
       </ul>
 
     </td>
+
   </tr>
 </table>
-
 
 ### Teknologi & Tools
 
@@ -82,8 +82,8 @@ Saya seorang profesional yang antusias di bidang IT dengan pengalaman pada dukun
     ![Figma](https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=fff)
     ![Postman](https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=fff)
 
-
 ### Sorotan Pengalaman
+
 - Menangani insiden dan permintaan IT harian dengan prioritas dan SLA yang jelas
 - Membangun backend API Laravel dengan autentikasi, otorisasi, dan dokumentasi
 - Mengembangkan aplikasi mobile Flutter/Kotlin dengan arsitektur yang terstruktur
@@ -93,14 +93,13 @@ Saya seorang profesional yang antusias di bidang IT dengan pengalaman pada dukun
   <img src="./assets/divider.svg" alt="divider" width="100%"/>
 </p>
 
-
 ### Portofolio Pilihan
 
 <!-- Ganti link/teks di bawah dengan proyek nyata Anda -->
+
 - Sistem Helpdesk/Asset Management (Laravel) – fokus ke reliability dan audit trail
 - Aplikasi Mobile Tracking (Flutter) – desain modular, offline-first, dan caching
 - Portal Internal (Laravel + MySQL) – role-based access control dan laporan PDF
-
 
 <details>
 <summary><b>Detail Teknis Tambahan</b></summary>
@@ -111,49 +110,47 @@ Saya seorang profesional yang antusias di bidang IT dengan pengalaman pada dukun
 
 </details>
 
-
 ### Hubungi Saya
+
 Silakan sesuaikan tautan di bawah ini sesuai preferensi Anda.
 
 - Email: [tulis email Anda di sini]
 - LinkedIn: [tautan LinkedIn]
 - Website/Blog: [tautan personal bila ada]
 
-
 ---
 
 Terima kasih sudah berkunjung! Jika Anda tertarik berkolaborasi atau berdiskusi, jangan ragu untuk menghubungi saya. 🙌
 
-
 ### Kartu & Statistik GitHub
-Ganti `YOUR_USERNAME` di bawah ini dengan username GitHub Anda agar kartu aktif.
+
+Ganti `afahzi14` di bawah ini dengan username GitHub Anda agar kartu aktif.
 
 <div align="center">
 
-  <img height="150" alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="150" alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&hide_border=true" />
+  <img height="150" alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=afahzi14&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img height="150" alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=afahzi14&layout=compact&theme=tokyonight&hide_border=true" />
 
-  <br/><br/>
+<br/><br/>
 
-  <img height="150" alt="Streak" src="https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=tokyonight&hide_border=true" />
+  <img height="150" alt="Streak" src="https://streak-stats.demolab.com?user=afahzi14&theme=tokyonight&hide_border=true" />
 
 </div>
-
 
 ### Proyek yang Disorot (Pinned)
-Ganti `YOUR_USERNAME` dan `repo-name` dengan proyek Anda.
+
+Ganti `afahzi14` dan `repo-name` dengan proyek Anda.
 
 <div align="center">
 
-  <a href="https://github.com/YOUR_USERNAME/repo-name">
-    <img height="120" alt="Pinned Repo 1" src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR_USERNAME&repo=repo-name&theme=tokyonight&hide_border=true" />
+  <a href="https://github.com/afahzi14/repo-name">
+    <img height="120" alt="Pinned Repo 1" src="https://github-readme-stats.vercel.app/api/pin/?username=afahzi14&repo=repo-name&theme=tokyonight&hide_border=true" />
   </a>
-  <a href="https://github.com/YOUR_USERNAME/repo-name-2">
-    <img height="120" alt="Pinned Repo 2" src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR_USERNAME&repo=repo-name-2&theme=tokyonight&hide_border=true" />
+  <a href="https://github.com/afahzi14/repo-name-2">
+    <img height="120" alt="Pinned Repo 2" src="https://github-readme-stats.vercel.app/api/pin/?username=afahzi14&repo=repo-name-2&theme=tokyonight&hide_border=true" />
   </a>
 
 </div>
-
 
 ### Terhubung dengan Saya
 
@@ -174,16 +171,16 @@ Ganti `YOUR_USERNAME` dan `repo-name` dengan proyek Anda.
 
 </div>
 
-
 ### Aktivitas Terbaru
+
 <!-- Anda bisa mengotomasi bagian ini dengan GitHub Actions (opsional) -->
+
 - ✨ Fokus: backend API yang andal dan aplikasi mobile performa tinggi
 - 🔧 Saat ini: menata struktur proyek agar mudah di-scale dan di-maintain
 - 📚 Pembelajaran: praktik arsitektur modular, CI/CD ringan, dan observability
 
-
 <div align="center">
 
-  <img alt="Visitors" src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&label=Visitors&color=1f6feb&style=flat" />
+  <img alt="Visitors" src="https://komarev.com/ghpvc/?username=afahzi14&label=Visitors&color=1f6feb&style=flat" />
 
 </div>
