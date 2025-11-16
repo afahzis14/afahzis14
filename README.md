@@ -34,23 +34,28 @@ Saya seorang profesional yang antusias di bidang IT dengan pengalaman pada dukun
     <td width="55%" valign="top">
 
       <h3>Keahlian Utama</h3>
-      <ul>
-        <li><b>IT Support</b>: Troubleshooting, monitoring, asset & user management, patching, network dasar</li>
-        <li><b>Backend (Laravel/PHP)</b>: API design, ORM/Eloquent, middleware, queue, testing</li>
-        <li><b>Mobile (Flutter/Kotlin)</b>: State management, modular architecture, CI-ready project structure</li>
-        <li><b>Database & DevOps</b>: MySQL/PostgreSQL, basic Docker, Linux server, Nginx, Git</li>
-      </ul>
+      <p align="left">
+        <img src="https://skillicons.dev/icons?i=php,laravel,composer,mysql,postgres,docker,nginx,linux&perline=8" alt="Backend & Infra"/>
+        <br/>
+        <img src="https://skillicons.dev/icons?i=dart,flutter,kotlin,androidstudio,firebase&perline=8" alt="Mobile Stack"/>
+      </p>
+      <p>
+        <img alt="IT Support" src="https://img.shields.io/badge/IT%20Support-ops%20%26%20troubleshoot-0ea5e9?style=flat-square&labelColor=0b1221&color=0ea5e9"/>
+        <img alt="Backend API" src="https://img.shields.io/badge/Backend-API%20%7C%20Auth%20%7C%20Queue-6366f1?style=flat-square&labelColor=0b1221&color=6366f1"/>
+        <img alt="Mobile Dev" src="https://img.shields.io/badge/Mobile-Flutter%20%7C%20Kotlin-22c55e?style=flat-square&labelColor=0b1221&color=22c55e"/>
+        <img alt="DevOps" src="https://img.shields.io/badge/DevOps-Docker%20%7C%20Linux%20%7C%20Nginx-14b8a6?style=flat-square&labelColor=0b1221&color=14b8a6"/>
+      </p>
 
     </td>
     <td width="45%" valign="top">
 
       <h3>Profil Singkat</h3>
-      <ul>
-        <li>Fokus pada reliability dan maintainability</li>
-        <li>Menjaga codebase bersih dan terstruktur</li>
-        <li>Komunikatif serta kolaboratif lintas fungsi</li>
-        <li>Continuous learning & improvement</li>
-      </ul>
+      <p>
+        <img alt="Reliability-first" src="https://img.shields.io/badge/Reliability-first-0ea5e9?style=for-the-badge&labelColor=0b1221&color=0ea5e9"/>
+        <img alt="Clean Architecture" src="https://img.shields.io/badge/Clean-Architecture-6366f1?style=for-the-badge&labelColor=0b1221&color=6366f1"/>
+        <img alt="Collaborative" src="https://img.shields.io/badge/Team-Collaboration-22c55e?style=for-the-badge&labelColor=0b1221&color=22c55e"/>
+        <img alt="Continuous Learning" src="https://img.shields.io/badge/Continuous-Learning-f97316?style=for-the-badge&labelColor=0b1221&color=f97316"/>
+      </p>
 
     </td>
 
@@ -130,10 +135,10 @@ Saya seorang profesional yang antusias di bidang IT dengan pengalaman pada dukun
 <!-- Ganti link/teks di bawah dengan proyek nyata Anda -->
 
 <p align="center">
-  <a href="https://github.com/afahzi14/repo-name" title="Helpdesk & Asset Management">
+  <a href="https://github.com/afahzis14/repo-name" title="Helpdesk & Asset Management">
     <img src="./assets/project1.svg" alt="Helpdesk & Asset Management" width="31%"/>
   </a>
-  <a href="https://github.com/afahzi14/repo-name-2" title="Mobile Tracking App">
+  <a href="https://github.com/afahzis14/repo-name-2" title="Mobile Tracking App">
     <img src="./assets/project2.svg" alt="Mobile Tracking App" width="31%"/>
   </a>
   <a href="#" title="Internal Portal">
@@ -164,39 +169,39 @@ Terima kasih sudah berkunjung! Jika Anda tertarik berkolaborasi atau berdiskusi,
 
 ### Kartu & Statistik GitHub
 
-Ganti `afahzi14` di bawah ini dengan username GitHub Anda agar kartu aktif.
+Ganti `afahzis14` di bawah ini dengan username GitHub Anda agar kartu aktif.
 
 <div align="center">
 
-  <img height="150" alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=afahzi14&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="150" alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=afahzi14&layout=compact&theme=tokyonight&hide_border=true" />
+  <img height="150" alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=afahzis14&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img height="150" alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=afahzis14&layout=compact&theme=tokyonight&hide_border=true" />
 
 <br/><br/>
 
-  <img height="150" alt="Streak" src="https://streak-stats.demolab.com?user=afahzi14&theme=tokyonight&hide_border=true" />
+  <img height="150" alt="Streak" src="https://streak-stats.demolab.com?user=afahzis14&theme=tokyonight&hide_border=true" />
 
   <br/><br/>
 
   <!-- Activity graph (distinct visual) -->
-  <img alt="Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=afahzi14&theme=tokyo-night&hide_border=true" />
+  <img alt="Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=afahzis14&theme=tokyo-night&hide_border=true" />
 
   <br/>
 
-  <img alt="Trophies" src="https://github-profile-trophy.vercel.app/?username=afahzi14&theme=onestar&no-frame=true&row=1&column=6" />
+  <img alt="Trophies" src="https://github-profile-trophy.vercel.app/?username=afahzis14&theme=onestar&no-frame=true&row=1&column=6" />
 
 </div>
 
 ### Proyek yang Disorot (Pinned)
 
-Ganti `afahzi14` dan `repo-name` dengan proyek Anda.
+Ganti `afahzis14` dan `repo-name` dengan proyek Anda.
 
 <div align="center">
 
-  <a href="https://github.com/afahzi14/repo-name">
-    <img height="130" alt="Pinned Repo 1" src="https://github-readme-stats.vercel.app/api/pin/?username=afahzi14&repo=repo-name&theme=tokyonight&hide_border=true" />
+  <a href="https://github.com/afahzis14/repo-name">
+    <img height="130" alt="Pinned Repo 1" src="https://github-readme-stats.vercel.app/api/pin/?username=afahzis14&repo=repo-name&theme=tokyonight&hide_border=true" />
   </a>
-  <a href="https://github.com/afahzi14/repo-name-2">
-    <img height="130" alt="Pinned Repo 2" src="https://github-readme-stats.vercel.app/api/pin/?username=afahzi14&repo=repo-name-2&theme=tokyonight&hide_border=true" />
+  <a href="https://github.com/afahzis14/repo-name-2">
+    <img height="130" alt="Pinned Repo 2" src="https://github-readme-stats.vercel.app/api/pin/?username=afahzis14&repo=repo-name-2&theme=tokyonight&hide_border=true" />
   </a>
 
 </div>
@@ -244,7 +249,7 @@ Ganti `afahzi14` dan `repo-name` dengan proyek Anda.
 
 <div align="center">
 
-  <img alt="Visitors" src="https://komarev.com/ghpvc/?username=afahzi14&label=Visitors&color=1f6feb&style=flat" />
+  <img alt="Visitors" src="https://komarev.com/ghpvc/?username=afahzis14&label=Visitors&color=1f6feb&style=flat" />
 
 </div>
 
