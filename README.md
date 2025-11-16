@@ -31,11 +31,7 @@
   </p>
 
   <!-- Opsional: Grafik aktivitas -->
-  <details>
-    <summary>🔎 Lihat grafik aktivitas</summary>
-    <br />
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=afahzis14&theme=dracula&hide_border=true" alt="Activity Graph" width="95%" />
-  </details>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=afahzis14&theme=dracula&hide_border=true" alt="Activity Graph" width="95%" />
   <br />
 </div>
 
