@@ -1,7 +1,7 @@
 <div align="center">
 
   <picture>
-    <img alt="Hero banner" src="./assets/header.svg" width="100%" />
+    <img alt="Hero banner" src="https://raw.githubusercontent.com/afahzis14/afahzis14/main/assets/header.svg" width="100%" />
   </picture>
 
   <br/>
