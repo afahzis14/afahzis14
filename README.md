@@ -24,6 +24,50 @@ Tool modern untuk menganalisis, memvisualisasikan, dan memprofilkan aktivitas Gi
 
 ---
 
+### 🧑‍💻 Profil GitHub: Afriza Fahmi Azis
+
+<div align="center">
+  <br />
+  <img src="https://api.dicebear.com/7.x/initials/svg?seed=Afriza%20Fahmi%20Azis&backgroundType=gradientLinear&fontFamily=Helvetica&fontWeight=700&scale=90" alt="Afriza Fahmi Azis Avatar" width="140" style="border-radius:50%;box-shadow:0 8px 30px rgba(0,0,0,.15)" />
+  <h2 style="margin-top:14px">Afriza Fahmi Azis</h2>
+
+  <!-- Keahlian -->
+  <p>
+    <img src="https://img.shields.io/badge/IT%20Support-6366F1?style=for-the-badge&logo=windows&logoColor=white" alt="IT Support" />
+    <img src="https://img.shields.io/badge/Laravel%20Developer-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel Developer" />
+    <img src="https://img.shields.io/badge/Flutter%20Developer-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter Developer" />
+    <img src="https://img.shields.io/badge/Kotlin%20Developer-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin Developer" />
+  </p>
+
+  <!-- Statistik -->
+  <h3>📈 Statistik</h3>
+  <p>
+    <a href="https://github.com/your-username">
+      <img src="https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" height="165" />
+    </a>
+    <a href="https://github.com/your-username">
+      <img src="https://streak-stats.demolab.com?user=your-username&theme=radical&hide_border=true" alt="GitHub Streak" height="165" />
+    </a>
+  </p>
+  <p>
+    <a href="https://github.com/your-username">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=your-username&layout=compact&theme=radical&hide_border=true" alt="Top Languages" height="165" />
+    </a>
+  </p>
+
+  <!-- Opsional: Grafik aktivitas -->
+  <details>
+    <summary>🔎 Lihat grafik aktivitas</summary>
+    <br />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=your-username&theme=dracula&hide_border=true" alt="Activity Graph" width="95%" />
+  </details>
+  <br />
+</div>
+
+> Ganti `your-username` di URL gambar agar statistik menampilkan data GitHub yang sesuai.
+
+---
+
 ### ✨ Demo Singkat
 
 
