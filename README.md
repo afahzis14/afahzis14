@@ -3,7 +3,8 @@
 
 <div align="center">
   <br />
-  <img src="https://api.dicebear.com/7.x/initials/svg?seed=Afriza%20Fahmi%20Azis&backgroundType=gradientLinear&fontFamily=Helvetica&fontWeight=700&scale=90" alt="Afriza Fahmi Azis Avatar" width="140" style="border-radius:50%;box-shadow:0 8px 30px rgba(0,0,0,.15)" />
+  <!-- <img src="https://api.dicebear.com/7.x/initials/svg?seed=Afriza%20Fahmi%20Azis&backgroundType=gradientLinear&fontFamily=Helvetica&fontWeight=700&scale=90" alt="Afriza Fahmi Azis Avatar" width="140" style="border-radius:50%;box-shadow:0 8px 30px rgba(0,0,0,.15)" /> -->
+  <img src="https://instagram.fjog3-1.fna.fbcdn.net/v/t51.2885-19/563951062_18562066144053896_1322191696576996206_n.jpg?efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fjog3-1.fna.fbcdn.net&_nc_cat=108&_nc_oc=Q6cZ2QFzNosEt4NRHHi51Mq1917l4fAcr4OBciwR9wU2Zjj8t7dtksw02KB0NnLDBg7pkzo&_nc_ohc=w5wxsPahkfUQ7kNvwFA_VU9&_nc_gid=MhX3F_579uZlG5ggDokpig&edm=AP4sbd4BAAAA&ccb=7-5&oh=00_AfiZCBNWAIZ2X3maBf6QnXp2ONKNzYL7GnevF0Gr6qD8mw&oe=691FEFAB&_nc_sid=7a9f4b" alt="Afriza Fahmi Azis Avatar" width="140" style="border-radius:50%;box-shadow:0 8px 30px rgba(0,0,0,.15)" />
   <h2 style="margin-top:14px">Afriza Fahmi Azis</h2>
 
   <!-- Keahlian -->
