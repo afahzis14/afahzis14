@@ -1,7 +1,7 @@
 <div align="center">
 
   <picture>
-    <img alt="Hero banner" src="https://raw.githubusercontent.com/afahzis14/afahzis14/main/assets/hero_glass.svg" width="100%" />
+    <img alt="Hero banner" src="./assets/hero_glass.svg" width="100%" />
   </picture>
 
   <br/>
@@ -81,11 +81,11 @@ Saya seorang profesional di bidang IT dengan pengalaman IT Support dan pengemban
 ### Teknologi & Layanan
 
 <p align="center">
-  <img alt="Stack visual" src="https://raw.githubusercontent.com/afahzis14/afahzis14/main/assets/grid_skills.svg" width="100%"/>
+  <img alt="Stack visual" src="./assets/grid_skills.svg" width="100%"/>
 </p>
 
 <p align="center">
-  <img alt="Services" src="https://raw.githubusercontent.com/afahzis14/afahzis14/main/assets/grid_services.svg" width="100%"/>
+  <img alt="Services" src="./assets/grid_services.svg" width="100%"/>
 </p>
 
 
@@ -100,15 +100,15 @@ Saya seorang profesional di bidang IT dengan pengalaman IT Support dan pengemban
 
 - Backend Reliability
   <br/>
-  <meter min="0" max="100" value="80">80%</meter> 80% — observability, queue, retry, graceful shutdown
+  ▰▰▰▰▰▰▰▰▱▱ 80% — observability, queue, retry, graceful shutdown
 
 - Flutter Performance
   <br/>
-  <meter min="0" max="100" value="70">70%</meter> 70% — state mgmt, lazy lists, image caching
+  ▰▰▰▰▰▰▰▱▱▱ 70% — state mgmt, lazy lists, image caching
 
 - Kotlin/Android
   <br/>
-  <meter min="0" max="100" value="60">60%</meter> 60% — Jetpack components, clean arch modules
+  ▰▰▰▰▰▰▱▱▱▱ 60% — Jetpack components, clean arch modules
 
 
 <p align="center">
@@ -216,5 +216,9 @@ Saya seorang profesional di bidang IT dengan pengalaman IT Support dan pengemban
 
 <p align="center">
   <sub>Terinspirasi dari profil modern, namun dengan gaya visual berbeda yang menekankan keterbacaan dan nuansa glass‑neon.</sub>
+</p>
+
+<p align="center">
+  <img alt="Footer" src="./assets/footer.svg" width="100%"/>
 </p>
 
