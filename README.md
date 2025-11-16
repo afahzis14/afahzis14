@@ -94,18 +94,6 @@
 
 ---
 
-### ⭐ Dukung Proyek Ini
-
-Jika Anda merasa proyek ini bermanfaat, berikan ⭐ di GitHub — itu sangat membantu!
-
-<div align="center">
-
-<a href="#"><img src="https://img.shields.io/github/stars/afahzis14/github_profiling?style=social" alt="GitHub Stars"></a>
-
-</div>
-
----
-
 ### 📬 Kontak
 
 <p>
