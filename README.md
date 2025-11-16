@@ -23,7 +23,7 @@
 </div>
 
 <p align="center">
-  <img src="./assets/divider.svg" alt="divider" width="100%"/>
+  <img src="./assets/separator_zigzag.svg" alt="separator" width="100%"/>
 </p>
 
 <p align="center">
@@ -112,7 +112,7 @@ Saya seorang profesional di bidang IT dengan pengalaman IT Support dan pengemban
 
 
 <p align="center">
-  <img src="./assets/divider.svg" alt="divider" width="100%"/>
+  <img src="./assets/separator_zigzag.svg" alt="separator" width="100%"/>
 </p>
 
 
