@@ -6,17 +6,11 @@
 
   <br/>
 
-  <!-- Typing intro (distinct theme) -->
-  <img alt="Typing intro" src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=20&duration=3000&pause=1200&color=22C55E&center=true&vCenter=true&random=false&width=700&lines=Hello%2C+I'm+Afriza+Fahmi+Azis;IT+Support+%7C+Laravel+Developer+%7C+Flutter+%26+Kotlin+Developer;Build+reliable+backend+%26+performant+mobile+apps" />
-
-  <!-- Quick badges -->
-  <img alt="Focus: Backend & Mobile" src="https://img.shields.io/badge/Focus-Backend%20%26%20Mobile-0ea5e9?style=for-the-badge&labelColor=0b1221&color=0ea5e9">
-  <img alt="Mindset: Continuous Learning" src="https://img.shields.io/badge/Mindset-Continuous%20Learning-6366f1?style=for-the-badge&labelColor=0b1221&color=6366f1">
-  <img alt="Workstyle: Problem Solver" src="https://img.shields.io/badge/Workstyle-Problem%20Solver-22c55e?style=for-the-badge&labelColor=0b1221&color=22c55e">
+  <img alt="Typing intro" src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=20&duration=3000&pause=1200&color=22C55E&center=true&vCenter=true&random=false&width=780&lines=Hello%2C+I'm+Afriza+Fahmi+Azis;IT+Support+%7C+Laravel+Developer+%7C+Flutter+%26+Kotlin+Developer;Build+reliable+backend+%26+performant+mobile+apps" />
 
   <br/>
 
-  <a href="https://github.com/afahzi14?tab=repositories" target="_blank">
+  <a href="https://github.com/afahzis14?tab=repositories" target="_blank">
     <img alt="View Repos" src="https://img.shields.io/badge/Repos-Explore-1f6feb?style=for-the-badge&labelColor=0b1221&logo=github"/>
   </a>
   <a href="mailto:EMAIL_ANDA" target="_blank">
@@ -32,33 +26,24 @@
   <img src="./assets/divider.svg" alt="divider" width="100%"/>
 </p>
 
-<!-- Highlights row -->
 <p align="center">
-  <a href="#" title="Reliable Backend">
-    <img alt="Reliable Backend" src="https://img.shields.io/badge/Reliable-Backend-0ea5e9?style=for-the-badge&labelColor=0b1221"/>
-  </a>
-  <a href="#" title="Performant Mobile">
-    <img alt="Performant Mobile" src="https://img.shields.io/badge/Performant-Mobile-22c55e?style=for-the-badge&labelColor=0b1221"/>
-  </a>
-  <a href="#" title="Clean Architecture">
-    <img alt="Clean Architecture" src="https://img.shields.io/badge/Clean-Architecture-6366f1?style=for-the-badge&labelColor=0b1221"/>
-  </a>
+  <img alt="Highlight Backend" src="https://img.shields.io/badge/Reliable-Backend-0ea5e9?style=for-the-badge&labelColor=0b1221"/>
+  <img alt="Highlight Mobile" src="https://img.shields.io/badge/Performant-Mobile-22c55e?style=for-the-badge&labelColor=0b1221"/>
+  <img alt="Highlight CleanArch" src="https://img.shields.io/badge/Clean-Architecture-6366f1?style=for-the-badge&labelColor=0b1221"/>
 </p>
 
+
 ### Tentang Saya
-
-Saya seorang profesional yang antusias di bidang IT dengan pengalaman pada dukungan teknis (IT Support) serta pengembangan aplikasi web dan mobile. Saya fokus pada:
-
-- **Stabilitas & Keandalan** dalam operasional sistem dan infrastruktur
-- **Pengembangan Web** dengan Laravel (REST API, autentikasi, arsitektur bersih)
-- **Pengembangan Mobile** menggunakan Flutter dan Kotlin (UI modern, performa)
-- **Kolaborasi** lintas tim dengan dokumentasi yang rapi dan komunikasi efektif
+Saya seorang profesional di bidang IT dengan pengalaman IT Support dan pengembangan aplikasi web/mobile. Fokus pada reliability, arsitektur bersih, dan kolaborasi efektif.
 
 <p align="center">
   <img alt="Focus Reliability" src="https://img.shields.io/badge/Focus-Reliability-1f6feb?style=flat-square&labelColor=0b1221"/>
   <img alt="Documentation" src="https://img.shields.io/badge/Docs-Clear%20%26%20Helpful-22c55e?style=flat-square&labelColor=0b1221"/>
   <img alt="Teamwork" src="https://img.shields.io/badge/Teamwork-Effective-6366f1?style=flat-square&labelColor=0b1221"/>
 </p>
+
+
+### Ringkasan Visual
 
 <table>
   <tr>
@@ -89,44 +74,11 @@ Saya seorang profesional yang antusias di bidang IT dengan pengalaman pada dukun
       </p>
 
     </td>
-
   </tr>
 </table>
 
-### Teknologi & Tools
 
-<!-- Stack badges: silakan hapus/ubah sesuai kebutuhan -->
-
-- Backend & Framework:
-  - ![PHP](https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=fff)
-    ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?logo=laravel&logoColor=fff)
-    ![Composer](https://img.shields.io/badge/Composer-885630?logo=composer&logoColor=fff)
-- Mobile:
-  - ![Flutter](https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=fff)
-    ![Dart](https://img.shields.io/badge/Dart-0175C2?logo=dart&logoColor=fff)
-    ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=fff)
-- Database & Infrastruktur:
-  - ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff)
-    ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=fff)
-    ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=000)
-    ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=fff)
-    ![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=000)
-    ![Nginx](https://img.shields.io/badge/Nginx-009639?logo=nginx&logoColor=fff)
-- Kolaborasi & Produktivitas:
-  - ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=fff)
-    ![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=fff)
-    ![GitLab](https://img.shields.io/badge/GitLab-FC6D26?logo=gitlab&logoColor=fff)
-    ![Jira](https://img.shields.io/badge/Jira-0052CC?logo=jira&logoColor=fff)
-    ![Trello](https://img.shields.io/badge/Trello-0052CC?logo=trello&logoColor=fff)
-    ![Figma](https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=fff)
-    ![Postman](https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=fff)
-
-<!-- Visual stacks via skillicons (distinct vs reference repo by arrangement/colors) -->
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=php,laravel,composer,mysql,postgres,docker,nginx,linux,git,github,gitlab&perline=11" alt="Backend & Tools"/>
-  <br/>
-  <img src="https://skillicons.dev/icons?i=dart,flutter,kotlin,androidstudio,firebase,figma,postman,vscode&perline=10" alt="Mobile & Productivity"/>
-</p>
+### Teknologi & Layanan
 
 <p align="center">
   <img alt="Stack visual" src="./assets/stack.svg" width="100%"/>
@@ -136,12 +88,13 @@ Saya seorang profesional yang antusias di bidang IT dengan pengalaman pada dukun
   <img alt="Services" src="./assets/services.svg" width="100%"/>
 </p>
 
-### Sorotan Pengalaman
 
-- Menangani insiden dan permintaan IT harian dengan prioritas dan SLA yang jelas
+### Sorotan Pengalaman
+- Menangani insiden IT harian dengan prioritas dan SLA yang jelas
 - Membangun backend API Laravel dengan autentikasi, otorisasi, dan dokumentasi
-- Mengembangkan aplikasi mobile Flutter/Kotlin dengan arsitektur yang terstruktur
-- Menyusun pipeline sederhana untuk build/test, serta praktik code review yang sehat
+- Mengembangkan aplikasi mobile Flutter/Kotlin dengan arsitektur modular
+- Menyusun pipeline sederhana untuk build/test, serta praktik code review
+
 
 ### Fokus & Pembelajaran Saat Ini
 
@@ -157,13 +110,13 @@ Saya seorang profesional yang antusias di bidang IT dengan pengalaman pada dukun
   <br/>
   <meter min="0" max="100" value="60">60%</meter> 60% — Jetpack components, clean arch modules
 
+
 <p align="center">
   <img src="./assets/divider.svg" alt="divider" width="100%"/>
 </p>
 
-### Portofolio Pilihan
 
-<!-- Ganti link/teks di bawah dengan proyek nyata Anda -->
+### Portofolio Pilihan
 
 <p align="center">
   <a href="https://github.com/afahzis14/hush_laravel" title="Helpdesk & Asset Management">
@@ -177,6 +130,7 @@ Saya seorang profesional yang antusias di bidang IT dengan pengalaman pada dukun
   </a>
 </p>
 
+
 <details>
 <summary><b>Detail Teknis Tambahan</b></summary>
 
@@ -186,34 +140,20 @@ Saya seorang profesional yang antusias di bidang IT dengan pengalaman pada dukun
 
 </details>
 
-### Hubungi Saya
-
-Silakan sesuaikan tautan di bawah ini sesuai preferensi Anda.
-
-- Email: [tulis email Anda di sini]
-- LinkedIn: [tautan LinkedIn]
-- Website/Blog: [tautan personal bila ada]
-
----
-
-Terima kasih sudah berkunjung! Jika Anda tertarik berkolaborasi atau berdiskusi, jangan ragu untuk menghubungi saya. 🙌
 
 ### Kartu & Statistik GitHub
-
-Ganti `afahzis14` di bawah ini dengan username GitHub Anda agar kartu aktif.
 
 <div align="center">
 
   <img height="150" alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=afahzis14&show_icons=true&theme=tokyonight&hide_border=true" />
   <img height="150" alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=afahzis14&layout=compact&theme=tokyonight&hide_border=true" />
 
-<br/><br/>
+  <br/><br/>
 
   <img height="150" alt="Streak" src="https://streak-stats.demolab.com?user=afahzis14&theme=tokyonight&hide_border=true" />
 
   <br/><br/>
 
-  <!-- Activity graph (distinct visual) -->
   <img alt="Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=afahzis14&theme=tokyo-night&hide_border=true" />
 
   <br/>
@@ -222,20 +162,6 @@ Ganti `afahzis14` di bawah ini dengan username GitHub Anda agar kartu aktif.
 
 </div>
 
-### Proyek yang Disorot (Pinned)
-
-Ganti `afahzis14` dan `hush_laravel` dengan proyek Anda.
-
-<div align="center">
-
-  <a href="https://github.com/afahzis14/hush_laravel">
-    <img height="130" alt="Pinned Repo 1" src="https://github-readme-stats.vercel.app/api/pin/?username=afahzis14&repo=hush_laravel&theme=tokyonight&hide_border=true" />
-  </a>
-  <a href="https://github.com/afahzis14/hush_laravel-2">
-    <img height="130" alt="Pinned Repo 2" src="https://github-readme-stats.vercel.app/api/pin/?username=afahzis14&repo=hush_laravel-2&theme=tokyonight&hide_border=true" />
-  </a>
-
-</div>
 
 ### CTA
 
@@ -250,6 +176,7 @@ Ganti `afahzis14` dan `hush_laravel` dengan proyek Anda.
     <img alt="Download CV" src="https://img.shields.io/badge/CV-Download-6366f1?style=for-the-badge&logoColor=fff&labelColor=0b1221">
   </a>
 </div>
+
 
 ### Terhubung dengan Saya
 
@@ -270,9 +197,8 @@ Ganti `afahzis14` dan `hush_laravel` dengan proyek Anda.
 
 </div>
 
-### Aktivitas Terbaru
 
-<!-- Anda bisa mengotomasi bagian ini dengan GitHub Actions (opsional) -->
+### Aktivitas Terbaru
 
 - ✨ Fokus: backend API yang andal dan aplikasi mobile performa tinggi
 - 🔧 Saat ini: menata struktur proyek agar mudah di-scale dan di-maintain
@@ -284,10 +210,11 @@ Ganti `afahzis14` dan `hush_laravel` dengan proyek Anda.
 
 <div align="center">
 
-  <img alt="Visitors" src="https://komarev.com/ghpvc/?username=afahzi14&label=Visitors&color=1f6feb&style=flat" />
+  <img alt="Visitors" src="https://komarev.com/ghpvc/?username=afahzis14&label=Visitors&color=1f6feb&style=flat" />
  
- </div>
+</div>
 
 <p align="center">
-  <sub>Terinspirasi dari profil modern namun dengan gaya visual berbeda, memprioritaskan keterbacaan dan tema glass‑neon yang bersih.</sub>
+  <sub>Terinspirasi dari profil modern, namun dengan gaya visual berbeda yang menekankan keterbacaan dan nuansa glass‑neon.</sub>
 </p>
+
