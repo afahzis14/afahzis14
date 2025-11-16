@@ -135,10 +135,10 @@ Saya seorang profesional yang antusias di bidang IT dengan pengalaman pada dukun
 <!-- Ganti link/teks di bawah dengan proyek nyata Anda -->
 
 <p align="center">
-  <a href="https://github.com/afahzis14/repo-name" title="Helpdesk & Asset Management">
+  <a href="https://github.com/afahzis14/hush_laravel" title="Helpdesk & Asset Management">
     <img src="./assets/project1.svg" alt="Helpdesk & Asset Management" width="31%"/>
   </a>
-  <a href="https://github.com/afahzis14/repo-name-2" title="Mobile Tracking App">
+  <a href="https://github.com/afahzis14/hush_flutter" title="Mobile Tracking App">
     <img src="./assets/project2.svg" alt="Mobile Tracking App" width="31%"/>
   </a>
   <a href="#" title="Internal Portal">
@@ -193,15 +193,15 @@ Ganti `afahzis14` di bawah ini dengan username GitHub Anda agar kartu aktif.
 
 ### Proyek yang Disorot (Pinned)
 
-Ganti `afahzis14` dan `repo-name` dengan proyek Anda.
+Ganti `afahzis14` dan `hush_laravel` dengan proyek Anda.
 
 <div align="center">
 
-  <a href="https://github.com/afahzis14/repo-name">
-    <img height="130" alt="Pinned Repo 1" src="https://github-readme-stats.vercel.app/api/pin/?username=afahzis14&repo=repo-name&theme=tokyonight&hide_border=true" />
+  <a href="https://github.com/afahzis14/hush_laravel">
+    <img height="130" alt="Pinned Repo 1" src="https://github-readme-stats.vercel.app/api/pin/?username=afahzis14&repo=hush_laravel&theme=tokyonight&hide_border=true" />
   </a>
-  <a href="https://github.com/afahzis14/repo-name-2">
-    <img height="130" alt="Pinned Repo 2" src="https://github-readme-stats.vercel.app/api/pin/?username=afahzis14&repo=repo-name-2&theme=tokyonight&hide_border=true" />
+  <a href="https://github.com/afahzis14/hush_laravel-2">
+    <img height="130" alt="Pinned Repo 2" src="https://github-readme-stats.vercel.app/api/pin/?username=afahzis14&repo=hush_laravel-2&theme=tokyonight&hide_border=true" />
   </a>
 
 </div>
