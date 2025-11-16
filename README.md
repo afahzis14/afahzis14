@@ -1,7 +1,8 @@
 <div align="center">
 
   <picture>
-    <img alt="Hero banner" src="./assets/hero_glass.svg" width="100%" />
+    <source srcset="https://raw.githubusercontent.com/afahzis14/afahzis14/main/assets/hero_glass.svg" type="image/svg+xml" />
+    <img alt="Hero banner" src="./assets/hero_flat.svg" width="100%" />
   </picture>
 
   <br/>
