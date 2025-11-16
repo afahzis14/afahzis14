@@ -49,11 +49,13 @@
 
 ### 🧱 Teknologi yang Digunakan
 
-- **Backend**: Node.js / Python (sesuaikan dengan stack Anda)
+- **Backend**: Laravel (PHP), REST API
+- **Database**: MySQL / PostgreSQL
+- **Mobile**: Flutter (Dart), Kotlin (Android)
+- **Frontend (Dashboard Web)**: React / Next.js (opsional)
+- **DevOps & Support**: Docker, GitHub Actions, Nginx, Windows/Linux (IT Support), Networking
 - **API**: GitHub REST/GraphQL API
-- **Frontend**: React / Next.js atau framework favorit Anda
-- **Visualisasi**: Chart.js, ECharts, atau D3
-- **Build & Dev**: Docker, PNPM/NPM/Yarn
+- **Visualisasi**: Chart.js / ECharts / D3
 
 
 ---
