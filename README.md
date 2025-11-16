@@ -1,7 +1,7 @@
 <div align="center">
 
   <picture>
-    <img alt="Hero banner" src="https://raw.githubusercontent.com/afahzis14/afahzis14/main/assets/header.svg" width="100%" />
+    <img alt="Hero banner" src="https://raw.githubusercontent.com/afahzis14/afahzis14/main/assets/hero_glass.svg" width="100%" />
   </picture>
 
   <br/>
@@ -81,11 +81,11 @@ Saya seorang profesional di bidang IT dengan pengalaman IT Support dan pengemban
 ### Teknologi & Layanan
 
 <p align="center">
-  <img alt="Stack visual" src="./assets/stack.svg" width="100%"/>
+  <img alt="Stack visual" src="https://raw.githubusercontent.com/afahzis14/afahzis14/main/assets/grid_skills.svg" width="100%"/>
 </p>
 
 <p align="center">
-  <img alt="Services" src="./assets/services.svg" width="100%"/>
+  <img alt="Services" src="https://raw.githubusercontent.com/afahzis14/afahzis14/main/assets/grid_services.svg" width="100%"/>
 </p>
 
 
