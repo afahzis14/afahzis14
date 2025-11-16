@@ -13,7 +13,7 @@ Tool modern untuk menganalisis, memvisualisasikan, dan memprofilkan aktivitas Gi
 <a href="#"><img alt="Status" src="https://img.shields.io/badge/status-active-success?style=for-the-badge&logo=rocket"></a>
 <a href="#"><img alt="License" src="https://img.shields.io/badge/license-MIT-000?style=for-the-badge"></a>
 <a href="#"><img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-welcome-1abc9c?style=for-the-badge&logo=github"></a>
-<a href="#"><img alt="Stars" src="https://img.shields.io/github/stars/your-username/github_profiling?style=for-the-badge&logo=github"></a>
+<a href="#"><img alt="Stars" src="https://img.shields.io/github/stars/afahzis14/github_profiling?style=for-the-badge&logo=github"></a>
 </p>
 
 <p>
@@ -42,16 +42,16 @@ Tool modern untuk menganalisis, memvisualisasikan, dan memprofilkan aktivitas Gi
   <!-- Statistik -->
   <h3>📈 Statistik</h3>
   <p>
-    <a href="https://github.com/your-username">
-      <img src="https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" height="165" />
+    <a href="https://github.com/afahzis14">
+      <img src="https://github-readme-stats.vercel.app/api?username=afahzis14&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" height="165" />
     </a>
-    <a href="https://github.com/your-username">
-      <img src="https://streak-stats.demolab.com?user=your-username&theme=radical&hide_border=true" alt="GitHub Streak" height="165" />
+    <a href="https://github.com/afahzis14">
+      <img src="https://streak-stats.demolab.com?user=afahzis14&theme=radical&hide_border=true" alt="GitHub Streak" height="165" />
     </a>
   </p>
   <p>
-    <a href="https://github.com/your-username">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=your-username&layout=compact&theme=radical&hide_border=true" alt="Top Languages" height="165" />
+    <a href="https://github.com/afahzis14">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=afahzis14&layout=compact&theme=radical&hide_border=true" alt="Top Languages" height="165" />
     </a>
   </p>
 
@@ -59,12 +59,12 @@ Tool modern untuk menganalisis, memvisualisasikan, dan memprofilkan aktivitas Gi
   <details>
     <summary>🔎 Lihat grafik aktivitas</summary>
     <br />
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=your-username&theme=dracula&hide_border=true" alt="Activity Graph" width="95%" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=afahzis14&theme=dracula&hide_border=true" alt="Activity Graph" width="95%" />
   </details>
   <br />
 </div>
 
-> Ganti `your-username` di URL gambar agar statistik menampilkan data GitHub yang sesuai.
+> Ganti `afahzis14` di URL gambar agar statistik menampilkan data GitHub yang sesuai.
 
 ---
 
@@ -123,7 +123,7 @@ Tool modern untuk menganalisis, memvisualisasikan, dan memprofilkan aktivitas Gi
 
 ```bash
 # 1) Clone repo
-git clone https://github.com/your-username/github_profiling.git
+git clone https://github.com/afahzis14/github_profiling.git
 cd github_profiling
 
 # 2) Konfigurasi environment
@@ -241,7 +241,7 @@ Jika Anda merasa proyek ini bermanfaat, berikan ⭐ di GitHub — itu sangat mem
 
 <div align="center">
 
-<a href="#"><img src="https://img.shields.io/github/stars/your-username/github_profiling?style=social" alt="GitHub Stars"></a>
+<a href="#"><img src="https://img.shields.io/github/stars/afahzis14/github_profiling?style=social" alt="GitHub Stars"></a>
 
 </div>
 
@@ -257,7 +257,7 @@ Proyek ini dirilis di bawah lisensi **MIT**. Lihat berkas `LICENSE` untuk detail
 
 - **Author**: Nama Anda
 - **Email**: your@email.com
-- **GitHub**: `@your-username`
+- **GitHub**: `@afahzis14`
 - **Website**: `https://yourwebsite.com`
 
 
