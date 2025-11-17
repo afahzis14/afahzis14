@@ -125,13 +125,8 @@
     </rect>
   </g>
   
-  <!-- Title with glow -->
-  <text x="400" y="40" font-family="'Segoe UI', 'Arial', sans-serif" font-size="28" font-weight="700" fill="#ffffff" text-anchor="middle" filter="url(#glow)" opacity="0.95">
-    🚀 Fitur Utama
-  </text>
-  
   <!-- Feature Cards Grid (3 columns, 2 rows) -->
-  <g transform="translate(50, 80)">
+  <g transform="translate(50, 50)">
     <!-- Row 1 -->
     <!-- Feature 1: Profil Aktivitas -->
     <g transform="translate(0, 0)">
