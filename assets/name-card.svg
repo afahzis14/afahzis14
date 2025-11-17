@@ -52,6 +52,12 @@
         <animate attributeName="stop-color" values="#24243e;#3d2f5e;#24243e" dur="8s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
+    <!-- Bottom fade gradient for seamless GitHub integration -->
+    <linearGradient id="bottomFade" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:0" />
+      <stop offset="60%" style="stop-color:#0d1117;stop-opacity:0" />
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:1" />
+    </linearGradient>
 </defs>
   <!-- Background Layer -->
   <path d="M 0 24 A 24 24 0 0 1 24 0 L 676 0 A 24 24 0 0 1 700 24 L 700 220 L 0 220 Z" fill="url(#animatedGradient)" filter="url(#cardShadow)" style="animation: fadeIn 0.8s ease-out;" opacity="0.4"/>
@@ -212,4 +218,7 @@
     </style>
 
   <path d="M 0 24 A 24 24 0 0 1 24 0 L 676 0 A 24 24 0 0 1 700 24 L 700 220 L 0 220 Z" fill="url(#animatedGrid)" opacity="0.8"/>
+  
+  <!-- Bottom fade overlay for seamless GitHub integration -->
+  <rect x="0" y="0" width="700" height="220" fill="url(#bottomFade)"/>
 </svg>
