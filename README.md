@@ -8,15 +8,15 @@
   <h2 style="margin-top:8px">Afriza Fahmi Azis</h2>
 
   <!-- Keahlian -->
-  <p>
+  <!-- <p>
     <img src="https://img.shields.io/badge/IT%20Support-6366F1?style=for-the-badge&logo=windows&logoColor=white" alt="IT Support" />
     <img src="https://img.shields.io/badge/Laravel%20Developer-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel Developer" />
     <img src="https://img.shields.io/badge/Flutter%20Developer-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter Developer" />
     <img src="https://img.shields.io/badge/Kotlin%20Developer-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin Developer" />
-  </p>
+  </p> -->
 
   <!-- Progress Skill -->
-  <h3 style="margin-top:24px;margin-bottom:16px">📊 Skills</h3>
+  <!-- <h3 style="margin-top:24px;margin-bottom:16px">📊 Skills</h3> -->
   <p>
     <img src="https://img.shields.io/badge/IT%20Support-85%25-6366F1?style=for-the-badge&logo=windows&logoColor=white" alt="IT Support 85%" />
     <img src="https://img.shields.io/badge/Laravel-80%25-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel 80%" />
