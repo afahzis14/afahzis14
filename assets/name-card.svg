@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="700" height="220" viewBox="0 0 700 220">
+  <defs>
+    <linearGradient id="cardGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0c29;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#302b63;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#24243e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="nameGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8e8e8;stop-opacity:1" />
+    </linearGradient>
+    <filter id="cardShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="6"/>
+      <feOffset dx="0" dy="8" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.4"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="photoShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="4"/>
+      <feOffset dx="0" dy="4" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.5"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="circleClip">
+      <circle cx="110" cy="110" r="75"/>
+    </clipPath>
+  </defs>
+  
+  <!-- Card Background -->
+  <rect width="700" height="220" rx="24" fill="url(#cardGradient)" filter="url(#cardShadow)"/>
+  
+  <!-- Decorative border glow -->
+  <rect x="2" y="2" width="696" height="216" rx="22" fill="none" stroke="url(#nameGradient)" stroke-width="1" opacity="0.15"/>
+  
+  <!-- Profile Photo Circle Background (glow effect) -->
+  <circle cx="110" cy="110" r="80" fill="url(#nameGradient)" opacity="0.1" filter="url(#photoShadow)"/>
+  <circle cx="110" cy="110" r="75" fill="#1a1a2e"/>
+  
+  <!-- Profile Photo (using image tag) -->
+  <image href="https://instagram.fjog3-1.fna.fbcdn.net/v/t51.2885-19/563951062_18562066144053896_1322191696576996206_n.jpg?efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&amp;_nc_ht=instagram.fjog3-1.fna.fbcdn.net&amp;_nc_cat=108&amp;_nc_oc=Q6cZ2QFzNosEt4NRHHi51Mq1917l4fAcr4OBciwR9wU2Zjj8t7dtksw02KB0NnLDBg7pkzo&amp;_nc_ohc=w5wxsPahkfUQ7kNvwFA_VU9&amp;_nc_gid=MhX3F_579uZlG5ggDokpig&amp;edm=AP4sbd4BAAAA&amp;ccb=7-5&amp;oh=00_AfiZCBNWAIZ2X3maBf6QnXp2ONKNzYL7GnevF0Gr6qD8mw&amp;oe=691FEFAB&amp;_nc_sid=7a9f4b" 
+         x="35" y="35" width="150" height="150" clip-path="url(#circleClip)"/>
+  
+  <!-- Name -->
+  <text x="230" y="90" font-family="'Segoe UI', 'Arial', sans-serif" font-size="36" font-weight="700" fill="url(#nameGradient)" letter-spacing="-0.5">Afriza Fahmi Azis</text>
+  
+  <!-- Skills Container -->
+  <g transform="translate(230, 120)">
+    <!-- IT Support Badge -->
+    <rect x="0" y="0" width="115" height="32" rx="16" fill="#6366F1" opacity="0.95"/>
+    <text x="57.5" y="21" font-family="'Segoe UI', 'Arial', sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="600">IT Support</text>
+    
+    <!-- Laravel Badge -->
+    <rect x="125" y="0" width="115" height="32" rx="16" fill="#FF2D20" opacity="0.95"/>
+    <text x="182.5" y="21" font-family="'Segoe UI', 'Arial', sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="600">Laravel</text>
+    
+    <!-- Flutter Badge -->
+    <rect x="250" y="0" width="115" height="32" rx="16" fill="#02569B" opacity="0.95"/>
+    <text x="307.5" y="21" font-family="'Segoe UI', 'Arial', sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="600">Flutter</text>
+    
+    <!-- Kotlin Badge -->
+    <rect x="375" y="0" width="115" height="32" rx="16" fill="#7F52FF" opacity="0.95"/>
+    <text x="432.5" y="21" font-family="'Segoe UI', 'Arial', sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="600">Kotlin</text>
+  </g>
+  
+  <!-- Decorative accent dots -->
+  <circle cx="650" cy="40" r="4" fill="#6366F1" opacity="0.6"/>
+  <circle cx="670" cy="60" r="3" fill="#FF2D20" opacity="0.6"/>
+  <circle cx="660" cy="180" r="3.5" fill="#02569B" opacity="0.6"/>
+  <circle cx="680" cy="190" r="3" fill="#7F52FF" opacity="0.6"/>
+  
+  <!-- Subtle grid pattern overlay -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="url(#nameGradient)" stroke-width="0.5" opacity="0.05"/>
+    </pattern>
+  </defs>
+  <rect width="700" height="220" fill="url(#grid)" rx="24"/>
+</svg>
