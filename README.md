@@ -44,12 +44,9 @@
 
 ### 🚀 Fitur Utama
 
-- **Profil Aktivitas**: Ringkas aktivitas harian, mingguan, dan bulanan (commit, PR, dan issue).
-- **Analitik Repositori**: Lihat repo teraktif, kontributor, dan tren trafik.
-- **Visualisasi Menarik**: Chart interaktif, heatmap commit, kartu profil, dan highlight PR.
-- **Ringkasan Otomatis**: Generate summary dan insight dengan satu klik.
-- **Ekspor & Bagikan**: Ekspor ke gambar/markdown untuk dibagikan di profil GitHub.
-- **Mode Gelap/Terang**: Otomatis menyesuaikan tema tampilan.
+<div align="center">
+  <img src="assets/features-card.svg" alt="Fitur Utama" width="100%" style="max-width:800px" />
+</div>
 
 ---
 
