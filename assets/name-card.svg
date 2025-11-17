@@ -56,20 +56,20 @@
   <!-- Skills Container -->
   <g transform="translate(230, 105)">
     <!-- IT Support Badge -->
-    <rect x="0" y="0" width="68" height="20" rx="10" fill="#6366F1" opacity="0.95"/>
-    <text x="34" y="14" font-family="'Segoe UI', 'Arial', sans-serif" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">IT Support</text>
+    <rect x="0" y="0" width="55" height="18" rx="9" fill="#6366F1" opacity="0.95"/>
+    <text x="27.5" y="13" font-family="'Segoe UI', 'Arial', sans-serif" font-size="8" fill="#ffffff" text-anchor="middle" font-weight="600">IT Support</text>
     
     <!-- Laravel Badge -->
-    <rect x="78" y="0" width="68" height="20" rx="10" fill="#FF2D20" opacity="0.95"/>
-    <text x="112" y="14" font-family="'Segoe UI', 'Arial', sans-serif" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">Laravel</text>
+    <rect x="65" y="0" width="55" height="18" rx="9" fill="#FF2D20" opacity="0.95"/>
+    <text x="92.5" y="13" font-family="'Segoe UI', 'Arial', sans-serif" font-size="8" fill="#ffffff" text-anchor="middle" font-weight="600">Laravel</text>
     
     <!-- Flutter Badge -->
-    <rect x="156" y="0" width="68" height="20" rx="10" fill="#02569B" opacity="0.95"/>
-    <text x="190" y="14" font-family="'Segoe UI', 'Arial', sans-serif" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">Flutter</text>
+    <rect x="130" y="0" width="55" height="18" rx="9" fill="#02569B" opacity="0.95"/>
+    <text x="157.5" y="13" font-family="'Segoe UI', 'Arial', sans-serif" font-size="8" fill="#ffffff" text-anchor="middle" font-weight="600">Flutter</text>
     
     <!-- Kotlin Badge -->
-    <rect x="234" y="0" width="68" height="20" rx="10" fill="#7F52FF" opacity="0.95"/>
-    <text x="268" y="14" font-family="'Segoe UI', 'Arial', sans-serif" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">Kotlin</text>
+    <rect x="195" y="0" width="55" height="18" rx="9" fill="#7F52FF" opacity="0.95"/>
+    <text x="222.5" y="13" font-family="'Segoe UI', 'Arial', sans-serif" font-size="8" fill="#ffffff" text-anchor="middle" font-weight="600">Kotlin</text>
   </g>
   
   <!-- Decorative accent dots -->
