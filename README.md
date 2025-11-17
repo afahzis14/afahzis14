@@ -28,7 +28,7 @@
   <!-- Statistik -->
   <p>
     <a href="https://github.com/afahzis14">
-      <img src="https://github-readme-stats.vercel.app/api?username=afahzis14&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" height="165" />
+      <img src="https://github-readme-stats.vercel.app/api?username=afahzis14&show_icons=true&theme=radical&hide_border=true&rank_icon=github" alt="GitHub Stats" height="165" />
     </a>
     <a href="https://github.com/afahzis14">
       <img src="https://streak-stats.demolab.com?user=afahzis14&theme=radical&hide_border=true" alt="GitHub Streak" height="165" />
