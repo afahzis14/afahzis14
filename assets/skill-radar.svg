@@ -1,0 +1,200 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="700" viewBox="0 0 700 700">
+  <defs>
+    <!-- Transparent gradient background -->
+    <linearGradient id="radarGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0c29;stop-opacity:0.1">
+        <animate attributeName="stop-color" values="#0f0c29;#1a0d3d;#0f0c29" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" style="stop-color:#302b63;stop-opacity:0.1">
+        <animate attributeName="stop-color" values="#302b63;#4a3d8f;#302b63" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" style="stop-color:#24243e;stop-opacity:0.1">
+        <animate attributeName="stop-color" values="#24243e;#3d2f5e;#24243e" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    
+    <!-- Grid pattern -->
+    <pattern id="radarGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#6366F1" stroke-width="0.3" opacity="0.15">
+        <animate attributeName="opacity" values="0.1;0.2;0.1" dur="4s" repeatCount="indefinite"/>
+      </path>
+    </pattern>
+    
+    <!-- Glow filter -->
+    <filter id="radarGlow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Strong glow -->
+    <filter id="strongRadarGlow">
+      <feGaussianBlur stdDeviation="5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Skill area gradient -->
+    <linearGradient id="skillGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366F1;stop-opacity:0.6" />
+      <stop offset="50%" style="stop-color:#818CF8;stop-opacity:0.7" />
+      <stop offset="100%" style="stop-color:#A78BFA;stop-opacity:0.5" />
+    </linearGradient>
+    
+    <!-- Skill border gradient -->
+    <linearGradient id="skillBorderGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366F1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#818CF8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="700" height="700" fill="url(#radarGradient)" opacity="0.3"/>
+  <rect width="700" height="700" fill="url(#radarGrid)" opacity="0.3"/>
+  
+  <!-- Center point -->
+  <circle cx="350" cy="350" r="3" fill="#6366F1" filter="url(#strongRadarGlow)" opacity="0.9">
+    <animate attributeName="r" values="3;5;3" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Radar grid circles (5 levels) -->
+  <g stroke="#6366F1" stroke-width="1" fill="none" opacity="0.3">
+    <circle cx="350" cy="350" r="60" opacity="0.2">
+      <animate attributeName="opacity" values="0.1;0.3;0.1" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="350" cy="350" r="120" opacity="0.2">
+      <animate attributeName="opacity" values="0.1;0.3;0.1" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="350" cy="350" r="180" opacity="0.2">
+      <animate attributeName="opacity" values="0.1;0.3;0.1" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="350" cy="350" r="240" opacity="0.2">
+      <animate attributeName="opacity" values="0.1;0.3;0.1" dur="4.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="350" cy="350" r="300" opacity="0.2">
+      <animate attributeName="opacity" values="0.1;0.3;0.1" dur="5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Radar grid lines (8 axes for 8 skills) -->
+  <g stroke="#6366F1" stroke-width="1" fill="none" opacity="0.3">
+    <!-- Calculate 8 axes at 45 degree intervals -->
+    <line x1="350" y1="350" x2="350" y2="50" opacity="0.2">
+      <animate attributeName="opacity" values="0.1;0.3;0.1" dur="2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="350" y1="350" x2="550" y2="150" opacity="0.2">
+      <animate attributeName="opacity" values="0.1;0.3;0.1" dur="2.2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="350" y1="350" x2="650" y2="350" opacity="0.2">
+      <animate attributeName="opacity" values="0.1;0.3;0.1" dur="2.4s" repeatCount="indefinite"/>
+    </line>
+    <line x1="350" y1="350" x2="550" y2="550" opacity="0.2">
+      <animate attributeName="opacity" values="0.1;0.3;0.1" dur="2.6s" repeatCount="indefinite"/>
+    </line>
+    <line x1="350" y1="350" x2="350" y2="650" opacity="0.2">
+      <animate attributeName="opacity" values="0.1;0.3;0.1" dur="2.8s" repeatCount="indefinite"/>
+    </line>
+    <line x1="350" y1="350" x2="150" y2="550" opacity="0.2">
+      <animate attributeName="opacity" values="0.1;0.3;0.1" dur="3s" repeatCount="indefinite"/>
+    </line>
+    <line x1="350" y1="350" x2="50" y2="350" opacity="0.2">
+      <animate attributeName="opacity" values="0.1;0.3;0.1" dur="3.2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="350" y1="350" x2="150" y2="150" opacity="0.2">
+      <animate attributeName="opacity" values="0.1;0.3;0.1" dur="3.4s" repeatCount="indefinite"/>
+    </line>
+  </g>
+  
+  <!-- Skill labels (8 categories) -->
+  <g font-family="'Segoe UI', 'Arial', sans-serif" font-size="14" font-weight="600" fill="#ffffff" opacity="0.9">
+    <text x="350" y="35" text-anchor="middle" filter="url(#radarGlow)">Backend</text>
+    <text x="570" y="130" text-anchor="middle" filter="url(#radarGlow)">Mobile</text>
+    <text x="670" y="360" text-anchor="middle" filter="url(#radarGlow)">Frontend</text>
+    <text x="570" y="570" text-anchor="middle" filter="url(#radarGlow)">Database</text>
+    <text x="350" y="680" text-anchor="middle" filter="url(#radarGlow)">DevOps</text>
+    <text x="130" y="570" text-anchor="middle" filter="url(#radarGlow)">API</text>
+    <text x="30" y="360" text-anchor="middle" filter="url(#radarGlow)">Visualisasi</text>
+    <text x="130" y="130" text-anchor="middle" filter="url(#radarGlow)">IT Support</text>
+  </g>
+  
+  <!-- Skill values (percentages) -->
+  <g font-family="'Segoe UI', 'Arial', sans-serif" font-size="12" font-weight="700" fill="#818CF8" opacity="0.8">
+    <text x="350" y="55" text-anchor="middle" filter="url(#radarGlow)">85%</text>
+    <text x="550" y="150" text-anchor="middle" filter="url(#radarGlow)">80%</text>
+    <text x="650" y="360" text-anchor="middle" filter="url(#radarGlow)">75%</text>
+    <text x="550" y="550" text-anchor="middle" filter="url(#radarGlow)">80%</text>
+    <text x="350" y="660" text-anchor="middle" filter="url(#radarGlow)">75%</text>
+    <text x="150" y="550" text-anchor="middle" filter="url(#radarGlow)">80%</text>
+    <text x="50" y="360" text-anchor="middle" filter="url(#radarGlow)">70%</text>
+    <text x="150" y="150" text-anchor="middle" filter="url(#radarGlow)">85%</text>
+  </g>
+  
+  <!-- Skill radar area (polygon) -->
+  <!-- Backend: 85%, Mobile: 80%, Frontend: 75%, Database: 80%, DevOps: 75%, API: 80%, Visualisasi: 70%, IT Support: 85% -->
+  <!-- Convert percentages to radius: max 300px, so 85% = 255px, 80% = 240px, 75% = 225px, 70% = 210px -->
+  <polygon 
+    points="350,95 530,170 620,350 530,530 350,575 170,530 80,350 170,170"
+    fill="url(#skillGradient)"
+    stroke="url(#skillBorderGradient)"
+    stroke-width="2"
+    filter="url(#radarGlow)"
+    opacity="0.7"
+    style="animation: fadeIn 1s ease-out;">
+    <animate attributeName="opacity" values="0.6;0.8;0.6" dur="4s" repeatCount="indefinite"/>
+  </polygon>
+  
+  <!-- Skill points (dots at each skill position) -->
+  <g>
+    <circle cx="350" cy="95" r="5" fill="#6366F1" filter="url(#strongRadarGlow)" opacity="0.9">
+      <animate attributeName="r" values="4;6;4" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="530" cy="170" r="5" fill="#818CF8" filter="url(#strongRadarGlow)" opacity="0.9">
+      <animate attributeName="r" values="4;6;4" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="620" cy="350" r="5" fill="#A78BFA" filter="url(#strongRadarGlow)" opacity="0.9">
+      <animate attributeName="r" values="4;6;4" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="530" cy="530" r="5" fill="#818CF8" filter="url(#strongRadarGlow)" opacity="0.9">
+      <animate attributeName="r" values="4;6;4" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="350" cy="575" r="5" fill="#6366F1" filter="url(#strongRadarGlow)" opacity="0.9">
+      <animate attributeName="r" values="4;6;4" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="170" cy="530" r="5" fill="#818CF8" filter="url(#strongRadarGlow)" opacity="0.9">
+      <animate attributeName="r" values="4;6;4" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="80" cy="350" r="5" fill="#A78BFA" filter="url(#strongRadarGlow)" opacity="0.9">
+      <animate attributeName="r" values="4;6;4" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="170" cy="170" r="5" fill="#6366F1" filter="url(#strongRadarGlow)" opacity="0.9">
+      <animate attributeName="r" values="4;6;4" dur="3.4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Animated particles -->
+  <g opacity="0.6">
+    <circle cx="100" cy="100" r="2" fill="#818CF8" filter="url(#radarGlow)">
+      <animate attributeName="cx" values="100;600;100" dur="20s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="100;600;100" dur="20s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="600" cy="600" r="2" fill="#FF6B6B" filter="url(#radarGlow)">
+      <animate attributeName="cx" values="600;100;600" dur="25s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="600;100;600" dur="25s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <style>
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
+</svg>
+
