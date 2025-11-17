@@ -42,8 +42,6 @@
 
 ---
 
-### 🚀 Fitur Utama
-
 <div align="center">
   <img src="assets/features-card.svg" alt="Fitur Utama" width="100%" style="max-width:800px" />
 </div>
