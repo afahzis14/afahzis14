@@ -20,8 +20,8 @@
   <p>
     <img src="https://img.shields.io/badge/IT%20Support-85%25-6366F1?style=for-the-badge&logo=windows&logoColor=white" alt="IT Support 85%" />
     <img src="https://img.shields.io/badge/Laravel-80%25-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel 80%" />
-    <img src="https://img.shields.io/badge/Flutter-75%25-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter 80%" />
-    <img src="https://img.shields.io/badge/Kotlin-70%25-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin 85%" />
+    <img src="https://img.shields.io/badge/Flutter-80%25-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter 80%" />
+    <img src="https://img.shields.io/badge/Kotlin-85%25-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin 85%" />
   </p>
   <br />
 
