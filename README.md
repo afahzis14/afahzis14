@@ -48,13 +48,13 @@
 
 ---
 
-### 🧱 Skill Radar
+<!-- ### 🧱 Skill Radar
 
 <div align="center">
   <img src="assets/skill-radar.svg" alt="Skill Radar" width="100%" style="max-width:700px" />
 </div>
 
----
+--- -->
 
 ### 🧱 Teknologi yang Digunakan
 
