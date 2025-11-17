@@ -47,7 +47,7 @@
   <circle cx="110" cy="110" r="75" fill="#1a1a2e"/>
   
   <!-- Profile Photo (using image tag) -->
-  <image href="https://instagram.fjog3-1.fna.fbcdn.net/v/t51.2885-19/563951062_18562066144053896_1322191696576996206_n.jpg?efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&amp;_nc_ht=instagram.fjog3-1.fna.fbcdn.net&amp;_nc_cat=108&amp;_nc_oc=Q6cZ2QFzNosEt4NRHHi51Mq1917l4fAcr4OBciwR9wU2Zjj8t7dtksw02KB0NnLDBg7pkzo&amp;_nc_ohc=w5wxsPahkfUQ7kNvwFA_VU9&amp;_nc_gid=MhX3F_579uZlG5ggDokpig&amp;edm=AP4sbd4BAAAA&amp;ccb=7-5&amp;oh=00_AfiZCBNWAIZ2X3maBf6QnXp2ONKNzYL7GnevF0Gr6qD8mw&amp;oe=691FEFAB&amp;_nc_sid=7a9f4b" 
+  <image href="https://avatars.githubusercontent.com/u/49198501?v=4" 
          x="35" y="35" width="150" height="150" clip-path="url(#circleClip)"/>
   
   <!-- Name -->
@@ -56,20 +56,20 @@
   <!-- Skills Container -->
   <g transform="translate(230, 105)">
     <!-- IT Support Badge -->
-    <rect x="0" y="0" width="55" height="18" rx="9" fill="#6366F1" opacity="0.95"/>
-    <text x="27.5" y="13" font-family="'Segoe UI', 'Arial', sans-serif" font-size="8" fill="#ffffff" text-anchor="middle" font-weight="600">IT Support</text>
+    <rect x="0" y="0" width="60" height="20" rx="10" fill="#6366F1" opacity="0.95"/>
+    <text x="30" y="12.5" font-family="'Segoe UI', 'Arial', sans-serif" font-size="8" fill="#ffffff" text-anchor="middle" font-weight="600">IT Support</text>
     
     <!-- Laravel Badge -->
-    <rect x="65" y="0" width="55" height="18" rx="9" fill="#FF2D20" opacity="0.95"/>
-    <text x="92.5" y="13" font-family="'Segoe UI', 'Arial', sans-serif" font-size="8" fill="#ffffff" text-anchor="middle" font-weight="600">Laravel</text>
+    <rect x="70" y="0" width="60" height="20" rx="10" fill="#FF2D20" opacity="0.95"/>
+    <text x="100" y="12.5" font-family="'Segoe UI', 'Arial', sans-serif" font-size="8" fill="#ffffff" text-anchor="middle" font-weight="600">Laravel</text>
     
     <!-- Flutter Badge -->
-    <rect x="130" y="0" width="55" height="18" rx="9" fill="#02569B" opacity="0.95"/>
-    <text x="157.5" y="13" font-family="'Segoe UI', 'Arial', sans-serif" font-size="8" fill="#ffffff" text-anchor="middle" font-weight="600">Flutter</text>
+    <rect x="140" y="0" width="60" height="20" rx="10" fill="#02569B" opacity="0.95"/>
+    <text x="170" y="12.5" font-family="'Segoe UI', 'Arial', sans-serif" font-size="8" fill="#ffffff" text-anchor="middle" font-weight="600">Flutter</text>
     
     <!-- Kotlin Badge -->
-    <rect x="195" y="0" width="55" height="18" rx="9" fill="#7F52FF" opacity="0.95"/>
-    <text x="222.5" y="13" font-family="'Segoe UI', 'Arial', sans-serif" font-size="8" fill="#ffffff" text-anchor="middle" font-weight="600">Kotlin</text>
+    <rect x="210" y="0" width="60" height="20" rx="10" fill="#7F52FF" opacity="0.95"/>
+    <text x="240" y="12.5" font-family="'Segoe UI', 'Arial', sans-serif" font-size="8" fill="#ffffff" text-anchor="middle" font-weight="600">Kotlin</text>
   </g>
   
   <!-- Decorative accent dots -->
