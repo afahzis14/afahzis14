@@ -1,6 +1,4 @@
 
-### 🧑‍💻 Profil GitHub: Afriza Fahmi Azis
-
 <div align="center">
   <br />
   <img src="assets/name-card.svg" alt="Afriza Fahmi Azis Profile Card" width="100%" style="max-width:700px" />
@@ -14,7 +12,6 @@
   </p> -->
 
   <!-- Progress Skill -->
-  <!-- <h3 style="margin-top:24px;margin-bottom:16px">📊 Skills</h3> -->
   <p>
     <img src="https://img.shields.io/badge/IT%20Support-85%25-6366F1?style=for-the-badge&logo=windows&logoColor=white" alt="IT Support 85%" />
     <img src="https://img.shields.io/badge/Laravel-80%25-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel 80%" />
