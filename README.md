@@ -15,6 +15,44 @@
     <img src="https://img.shields.io/badge/Kotlin%20Developer-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin Developer" />
   </p>
 
+  <!-- Progress Skill -->
+  <h3 style="margin-top:24px;margin-bottom:16px">📊 Progress Skill</h3>
+  <table style="width:100%;max-width:600px;margin:0 auto">
+    <tr>
+      <td style="width:140px;text-align:left;padding-right:12px">
+        <strong style="color:#ffffff">IT Support</strong>
+      </td>
+      <td style="width:auto">
+        <img src="assets/it-support-progress.svg" alt="IT Support 85%" width="100%" style="max-width:400px" />
+      </td>
+    </tr>
+    <tr>
+      <td style="width:140px;text-align:left;padding-right:12px;padding-top:12px">
+        <strong style="color:#ffffff">Laravel</strong>
+      </td>
+      <td style="width:auto;padding-top:12px">
+        <img src="assets/laravel-progress.svg" alt="Laravel 80%" width="100%" style="max-width:400px" />
+      </td>
+    </tr>
+    <tr>
+      <td style="width:140px;text-align:left;padding-right:12px;padding-top:12px">
+        <strong style="color:#ffffff">Flutter</strong>
+      </td>
+      <td style="width:auto;padding-top:12px">
+        <img src="assets/flutter-progress.svg" alt="Flutter 75%" width="100%" style="max-width:400px" />
+      </td>
+    </tr>
+    <tr>
+      <td style="width:140px;text-align:left;padding-right:12px;padding-top:12px">
+        <strong style="color:#ffffff">Kotlin</strong>
+      </td>
+      <td style="width:auto;padding-top:12px">
+        <img src="assets/kotlin-progress.svg" alt="Kotlin 70%" width="100%" style="max-width:400px" />
+      </td>
+    </tr>
+  </table>
+  <br />
+
   <!-- Statistik -->
   <p>
     <a href="https://github.com/afahzis14">

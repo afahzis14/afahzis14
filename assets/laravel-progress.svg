@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="30" viewBox="0 0 400 30">
+  <defs>
+    <linearGradient id="laravelGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF2D20;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF6B6B;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="30" fill="#2d2d44" rx="15"/>
+  <rect width="320" height="30" fill="url(#laravelGrad)" rx="15">
+    <animate attributeName="width" from="0" to="320" dur="1.5s" fill="freeze"/>
+  </rect>
+  <text x="390" y="20" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="end">80%</text>
+</svg>
+

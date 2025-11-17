@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6366F1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B5CF6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF2D20;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF6B6B;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#02569B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0277BD;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7F52FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#9D7AFF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="400" fill="#1a1a2e" rx="12"/>
+  
+  <!-- Title -->
+  <text x="300" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">Skill Progress</text>
+  
+  <!-- IT Support - 85% -->
+  <text x="30" y="90" font-family="Arial, sans-serif" font-size="16" fill="#ffffff">IT Support</text>
+  <rect x="30" y="100" width="500" height="20" fill="#2d2d44" rx="10"/>
+  <rect x="30" y="100" width="425" height="20" fill="url(#grad1)" rx="10">
+    <animate attributeName="width" from="0" to="425" dur="1.5s" fill="freeze"/>
+  </rect>
+  <text x="545" y="115" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff">85%</text>
+  
+  <!-- Laravel Developer - 80% -->
+  <text x="30" y="160" font-family="Arial, sans-serif" font-size="16" fill="#ffffff">Laravel Developer</text>
+  <rect x="30" y="170" width="500" height="20" fill="#2d2d44" rx="10"/>
+  <rect x="30" y="170" width="400" height="20" fill="url(#grad2)" rx="10">
+    <animate attributeName="width" from="0" to="400" dur="1.5s" begin="0.2s" fill="freeze"/>
+  </rect>
+  <text x="545" y="185" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff">80%</text>
+  
+  <!-- Flutter Developer - 75% -->
+  <text x="30" y="230" font-family="Arial, sans-serif" font-size="16" fill="#ffffff">Flutter Developer</text>
+  <rect x="30" y="240" width="500" height="20" fill="#2d2d44" rx="10"/>
+  <rect x="30" y="240" width="375" height="20" fill="url(#grad3)" rx="10">
+    <animate attributeName="width" from="0" to="375" dur="1.5s" begin="0.4s" fill="freeze"/>
+  </rect>
+  <text x="545" y="255" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff">75%</text>
+  
+  <!-- Kotlin Developer - 70% -->
+  <text x="30" y="300" font-family="Arial, sans-serif" font-size="16" fill="#ffffff">Kotlin Developer</text>
+  <rect x="30" y="310" width="500" height="20" fill="#2d2d44" rx="10"/>
+  <rect x="30" y="310" width="350" height="20" fill="url(#grad4)" rx="10">
+    <animate attributeName="width" from="0" to="350" dur="1.5s" begin="0.6s" fill="freeze"/>
+  </rect>
+  <text x="545" y="325" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff">70%</text>
+</svg>
+
