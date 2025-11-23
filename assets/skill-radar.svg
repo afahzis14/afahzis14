@@ -1,37 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="600" viewBox="0 0 700 600">
   <defs>
-    <!-- Transparent gradient background -->
-    <linearGradient id="radarGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0f0c29;stop-opacity:0.1">
-        <animate attributeName="stop-color" values="#0f0c29;#1a0d3d;#0f0c29" dur="8s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="50%" style="stop-color:#302b63;stop-opacity:0.1">
-        <animate attributeName="stop-color" values="#302b63;#4a3d8f;#302b63" dur="8s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="100%" style="stop-color:#24243e;stop-opacity:0.1">
-        <animate attributeName="stop-color" values="#24243e;#3d2f5e;#24243e" dur="8s" repeatCount="indefinite"/>
-      </stop>
+    <!-- Card background gradient -->
+    <linearGradient id="cardGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#161b22;stop-opacity:1" />
     </linearGradient>
     
-    <!-- Grid pattern -->
-    <pattern id="radarGrid" width="30" height="30" patternUnits="userSpaceOnUse">
-      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#6366F1" stroke-width="0.3" opacity="0.15">
-        <animate attributeName="opacity" values="0.1;0.2;0.1" dur="4s" repeatCount="indefinite"/>
-      </path>
+    <!-- Subtle grid pattern -->
+    <pattern id="subtleGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#21262d" stroke-width="0.5" opacity="0.3"/>
     </pattern>
     
-    <!-- Glow filter -->
+    <!-- Glow filter for radar elements -->
     <filter id="radarGlow">
-      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
       <feMerge>
         <feMergeNode in="coloredBlur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
     
-    <!-- Strong glow -->
-    <filter id="strongRadarGlow">
-      <feGaussianBlur stdDeviation="5" result="coloredBlur"/>
+    <!-- Strong glow for skill points -->
+    <filter id="pointGlow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
       <feMerge>
         <feMergeNode in="coloredBlur"/>
         <feMergeNode in="SourceGraphic"/>
@@ -40,159 +31,174 @@
     
     <!-- Skill area gradient -->
     <linearGradient id="skillGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#6366F1;stop-opacity:0.6" />
-      <stop offset="50%" style="stop-color:#818CF8;stop-opacity:0.7" />
-      <stop offset="100%" style="stop-color:#A78BFA;stop-opacity:0.5" />
+      <stop offset="0%" style="stop-color:#6366F1;stop-opacity:0.4" />
+      <stop offset="50%" style="stop-color:#818CF8;stop-opacity:0.5" />
+      <stop offset="100%" style="stop-color:#A78BFA;stop-opacity:0.3" />
     </linearGradient>
     
     <!-- Skill border gradient -->
     <linearGradient id="skillBorderGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#6366F1;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#818CF8;stop-opacity:1" />
+      <stop offset="0%" style="stop-color:#6366F1;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#818CF8;stop-opacity:0.8" />
+    </linearGradient>
+    
+    <!-- Animated scan line -->
+    <linearGradient id="scanLine" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366F1;stop-opacity:0" />
+      <stop offset="50%" style="stop-color:#6366F1;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#6366F1;stop-opacity:0" />
     </linearGradient>
   </defs>
   
-  <!-- Background -->
-  <rect width="500" height="500" fill="url(#radarGradient)" opacity="0.3"/>
-  <rect width="500" height="500" fill="url(#radarGrid)" opacity="0.3"/>
+  <!-- Card container with rounded corners -->
+  <rect x="20" y="20" width="660" height="560" rx="16" ry="16" fill="url(#cardGradient)" stroke="#30363d" stroke-width="1"/>
+  <rect x="20" y="20" width="660" height="560" rx="16" ry="16" fill="url(#subtleGrid)" opacity="0.4"/>
   
-  <!-- Center point -->
-  <circle cx="250" cy="250" r="3" fill="#6366F1" filter="url(#strongRadarGlow)" opacity="0.9">
-    <animate attributeName="r" values="3;5;3" dur="2s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite"/>
-  </circle>
-  
-  <!-- Radar grid circles (5 levels) -->
-  <g stroke="#6366F1" stroke-width="1" fill="none" opacity="0.3">
-    <circle cx="250" cy="250" r="40" opacity="0.2">
-      <animate attributeName="opacity" values="0.1;0.3;0.1" dur="3s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="250" cy="250" r="80" opacity="0.2">
-      <animate attributeName="opacity" values="0.1;0.3;0.1" dur="3.5s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="250" cy="250" r="120" opacity="0.2">
-      <animate attributeName="opacity" values="0.1;0.3;0.1" dur="4s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="250" cy="250" r="160" opacity="0.2">
-      <animate attributeName="opacity" values="0.1;0.3;0.1" dur="4.5s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="250" cy="250" r="200" opacity="0.2">
-      <animate attributeName="opacity" values="0.1;0.3;0.1" dur="5s" repeatCount="indefinite"/>
-    </circle>
+  <!-- Title section -->
+  <g font-family="'Segoe UI', 'Arial', sans-serif">
+    <text x="350" y="65" text-anchor="middle" font-size="24" font-weight="700" fill="#f0f6fc">Skill Radar</text>
+    <line x1="100" y1="80" x2="600" y2="80" stroke="#30363d" stroke-width="1"/>
   </g>
   
-  <!-- Radar grid lines (8 axes for 8 skills) -->
-  <g stroke="#6366F1" stroke-width="1" fill="none" opacity="0.3">
-    <line x1="250" y1="250" x2="250" y2="30" opacity="0.2">
-      <animate attributeName="opacity" values="0.1;0.3;0.1" dur="2s" repeatCount="indefinite"/>
-    </line>
-    <line x1="250" y1="250" x2="420" y2="80" opacity="0.2">
-      <animate attributeName="opacity" values="0.1;0.3;0.1" dur="2.2s" repeatCount="indefinite"/>
-    </line>
-    <line x1="250" y1="250" x2="470" y2="250" opacity="0.2">
-      <animate attributeName="opacity" values="0.1;0.3;0.1" dur="2.4s" repeatCount="indefinite"/>
-    </line>
-    <line x1="250" y1="250" x2="420" y2="420" opacity="0.2">
-      <animate attributeName="opacity" values="0.1;0.3;0.1" dur="2.6s" repeatCount="indefinite"/>
-    </line>
-    <line x1="250" y1="250" x2="250" y2="470" opacity="0.2">
-      <animate attributeName="opacity" values="0.1;0.3;0.1" dur="2.8s" repeatCount="indefinite"/>
-    </line>
-    <line x1="250" y1="250" x2="80" y2="420" opacity="0.2">
-      <animate attributeName="opacity" values="0.1;0.3;0.1" dur="3s" repeatCount="indefinite"/>
-    </line>
-    <line x1="250" y1="250" x2="30" y2="250" opacity="0.2">
-      <animate attributeName="opacity" values="0.1;0.3;0.1" dur="3.2s" repeatCount="indefinite"/>
-    </line>
-    <line x1="250" y1="250" x2="80" y2="80" opacity="0.2">
-      <animate attributeName="opacity" values="0.1;0.3;0.1" dur="3.4s" repeatCount="indefinite"/>
-    </line>
+  <!-- Radar chart container (centered in card) -->
+  <g transform="translate(350, 320)">
+    <!-- Center point -->
+    <circle cx="0" cy="0" r="3" fill="#6366F1" filter="url(#pointGlow)" opacity="0.9">
+      <animate attributeName="r" values="3;4;3" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Radar grid circles (5 levels) -->
+    <g stroke="#30363d" stroke-width="1" fill="none" opacity="0.5">
+      <circle cx="0" cy="0" r="50" opacity="0.3">
+        <animate attributeName="opacity" values="0.2;0.4;0.2" dur="4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="0" cy="0" r="100" opacity="0.3">
+        <animate attributeName="opacity" values="0.2;0.4;0.2" dur="4.5s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="0" cy="0" r="150" opacity="0.3">
+        <animate attributeName="opacity" values="0.2;0.4;0.2" dur="5s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="0" cy="0" r="200" opacity="0.3">
+        <animate attributeName="opacity" values="0.2;0.4;0.2" dur="5.5s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="0" cy="0" r="250" opacity="0.3">
+        <animate attributeName="opacity" values="0.2;0.4;0.2" dur="6s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    
+    <!-- Radar grid lines (8 axes for 8 skills) -->
+    <g stroke="#30363d" stroke-width="1" fill="none" opacity="0.4">
+      <line x1="0" y1="0" x2="0" y2="-250" opacity="0.3">
+        <animate attributeName="opacity" values="0.2;0.4;0.2" dur="3s" repeatCount="indefinite"/>
+      </line>
+      <line x1="0" y1="0" x2="177" y2="-177" opacity="0.3">
+        <animate attributeName="opacity" values="0.2;0.4;0.2" dur="3.2s" repeatCount="indefinite"/>
+      </line>
+      <line x1="0" y1="0" x2="250" y2="0" opacity="0.3">
+        <animate attributeName="opacity" values="0.2;0.4;0.2" dur="3.4s" repeatCount="indefinite"/>
+      </line>
+      <line x1="0" y1="0" x2="177" y2="177" opacity="0.3">
+        <animate attributeName="opacity" values="0.2;0.4;0.2" dur="3.6s" repeatCount="indefinite"/>
+      </line>
+      <line x1="0" y1="0" x2="0" y2="250" opacity="0.3">
+        <animate attributeName="opacity" values="0.2;0.4;0.2" dur="3.8s" repeatCount="indefinite"/>
+      </line>
+      <line x1="0" y1="0" x2="-177" y2="177" opacity="0.3">
+        <animate attributeName="opacity" values="0.2;0.4;0.2" dur="4s" repeatCount="indefinite"/>
+      </line>
+      <line x1="0" y1="0" x2="-250" y2="0" opacity="0.3">
+        <animate attributeName="opacity" values="0.2;0.4;0.2" dur="4.2s" repeatCount="indefinite"/>
+      </line>
+      <line x1="0" y1="0" x2="-177" y2="-177" opacity="0.3">
+        <animate attributeName="opacity" values="0.2;0.4;0.2" dur="4.4s" repeatCount="indefinite"/>
+      </line>
+    </g>
+    
+    <!-- Skill radar area (polygon) -->
+    <!-- Backend: 85%, Mobile: 80%, Frontend: 75%, Database: 80%, DevOps: 75%, API: 80%, Visualisasi: 70%, IT Support: 85% -->
+    <!-- Convert percentages to radius: max 250px, so 85% = 212.5px, 80% = 200px, 75% = 187.5px, 70% = 175px -->
+    <polygon 
+      points="0,-212.5 141.4,-141.4 250,0 141.4,141.4 0,187.5 -141.4,141.4 -250,0 -141.4,-141.4"
+      fill="url(#skillGradient)"
+      stroke="url(#skillBorderGradient)"
+      stroke-width="2"
+      filter="url(#radarGlow)"
+      opacity="0.6">
+      <animate attributeName="opacity" values="0.5;0.7;0.5" dur="4s" repeatCount="indefinite"/>
+    </polygon>
+    
+    <!-- Skill points (dots at each skill position) -->
+    <g>
+      <circle cx="0" cy="-212.5" r="5" fill="#6366F1" filter="url(#pointGlow)" opacity="0.9">
+        <animate attributeName="r" values="4;6;4" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="141.4" cy="-141.4" r="5" fill="#818CF8" filter="url(#pointGlow)" opacity="0.9">
+        <animate attributeName="r" values="4;6;4" dur="2.2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="250" cy="0" r="5" fill="#A78BFA" filter="url(#pointGlow)" opacity="0.9">
+        <animate attributeName="r" values="4;6;4" dur="2.4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="141.4" cy="141.4" r="5" fill="#818CF8" filter="url(#pointGlow)" opacity="0.9">
+        <animate attributeName="r" values="4;6;4" dur="2.6s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="0" cy="187.5" r="5" fill="#6366F1" filter="url(#pointGlow)" opacity="0.9">
+        <animate attributeName="r" values="4;6;4" dur="2.8s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="-141.4" cy="141.4" r="5" fill="#818CF8" filter="url(#pointGlow)" opacity="0.9">
+        <animate attributeName="r" values="4;6;4" dur="3s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="-250" cy="0" r="5" fill="#A78BFA" filter="url(#pointGlow)" opacity="0.9">
+        <animate attributeName="r" values="4;6;4" dur="3.2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="-141.4" cy="-141.4" r="5" fill="#6366F1" filter="url(#pointGlow)" opacity="0.9">
+        <animate attributeName="r" values="4;6;4" dur="3.4s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    
+    <!-- Skill labels (8 categories) - positioned outside radar area -->
+    <g font-family="'Segoe UI', 'Arial', sans-serif" font-size="12" font-weight="600" fill="#c9d1d9" opacity="0.9">
+      <text x="0" y="-280" text-anchor="middle" filter="url(#radarGlow)">Backend</text>
+      <text x="200" y="-200" text-anchor="middle" filter="url(#radarGlow)">Mobile</text>
+      <text x="280" y="0" text-anchor="middle" filter="url(#radarGlow)">Frontend</text>
+      <text x="200" y="200" text-anchor="middle" filter="url(#radarGlow)">Database</text>
+      <text x="0" y="240" text-anchor="middle" filter="url(#radarGlow)">DevOps</text>
+      <text x="-200" y="200" text-anchor="middle" filter="url(#radarGlow)">API</text>
+      <text x="-280" y="0" text-anchor="middle" filter="url(#radarGlow)">Visualisasi</text>
+      <text x="-200" y="-200" text-anchor="middle" filter="url(#radarGlow)">IT Support</text>
+    </g>
+    
+    <!-- Skill values (percentages) - positioned between label and point -->
+    <g font-family="'Segoe UI', 'Arial', sans-serif" font-size="11" font-weight="700" fill="#818CF8" opacity="0.85">
+      <text x="0" y="-235" text-anchor="middle" filter="url(#radarGlow)">85%</text>
+      <text x="170" y="-160" text-anchor="middle" filter="url(#radarGlow)">80%</text>
+      <text x="270" y="0" text-anchor="middle" filter="url(#radarGlow)">75%</text>
+      <text x="170" y="160" text-anchor="middle" filter="url(#radarGlow)">80%</text>
+      <text x="0" y="210" text-anchor="middle" filter="url(#radarGlow)">75%</text>
+      <text x="-170" y="160" text-anchor="middle" filter="url(#radarGlow)">80%</text>
+      <text x="-270" y="0" text-anchor="middle" filter="url(#radarGlow)">70%</text>
+      <text x="-170" y="-160" text-anchor="middle" filter="url(#radarGlow)">85%</text>
+    </g>
   </g>
   
-  <!-- Skill radar area (polygon) -->
-  <!-- Backend: 85%, Mobile: 80%, Frontend: 75%, Database: 80%, DevOps: 75%, API: 80%, Visualisasi: 70%, IT Support: 85% -->
-  <!-- Convert percentages to radius: max 200px, so 85% = 170px, 80% = 160px, 75% = 150px, 70% = 140px -->
-  <polygon 
-    points="250,80 380,120 440,250 380,380 250,400 120,380 60,250 120,120"
-    fill="url(#skillGradient)"
-    stroke="url(#skillBorderGradient)"
-    stroke-width="2"
-    filter="url(#radarGlow)"
-    opacity="0.7"
-    style="animation: fadeIn 1s ease-out;">
-    <animate attributeName="opacity" values="0.6;0.8;0.6" dur="4s" repeatCount="indefinite"/>
-  </polygon>
+  <!-- Animated scan line effect -->
+  <rect x="20" y="20" width="660" height="560" rx="16" ry="16" fill="url(#scanLine)" opacity="0.2">
+    <animateTransform attributeName="transform" type="translate" values="0,-560;0,560" dur="8s" repeatCount="indefinite"/>
+  </rect>
   
-  <!-- Skill points (dots at each skill position) -->
-  <g>
-    <circle cx="250" cy="80" r="4" fill="#6366F1" filter="url(#strongRadarGlow)" opacity="0.9">
-      <animate attributeName="r" values="3;5;3" dur="2s" repeatCount="indefinite"/>
+  <!-- Subtle corner accents -->
+  <g opacity="0.3">
+    <circle cx="36" cy="36" r="2" fill="#6366F1">
+      <animate attributeName="opacity" values="0.2;0.5;0.2" dur="3s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="380" cy="120" r="4" fill="#818CF8" filter="url(#strongRadarGlow)" opacity="0.9">
-      <animate attributeName="r" values="3;5;3" dur="2.2s" repeatCount="indefinite"/>
+    <circle cx="664" cy="36" r="2" fill="#6366F1">
+      <animate attributeName="opacity" values="0.2;0.5;0.2" dur="3.2s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="440" cy="250" r="4" fill="#A78BFA" filter="url(#strongRadarGlow)" opacity="0.9">
-      <animate attributeName="r" values="3;5;3" dur="2.4s" repeatCount="indefinite"/>
+    <circle cx="664" cy="564" r="2" fill="#6366F1">
+      <animate attributeName="opacity" values="0.2;0.5;0.2" dur="3.4s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="380" cy="380" r="4" fill="#818CF8" filter="url(#strongRadarGlow)" opacity="0.9">
-      <animate attributeName="r" values="3;5;3" dur="2.6s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="250" cy="400" r="4" fill="#6366F1" filter="url(#strongRadarGlow)" opacity="0.9">
-      <animate attributeName="r" values="3;5;3" dur="2.8s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="120" cy="380" r="4" fill="#818CF8" filter="url(#strongRadarGlow)" opacity="0.9">
-      <animate attributeName="r" values="3;5;3" dur="3s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="60" cy="250" r="4" fill="#A78BFA" filter="url(#strongRadarGlow)" opacity="0.9">
-      <animate attributeName="r" values="3;5;3" dur="3.2s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="120" cy="120" r="4" fill="#6366F1" filter="url(#strongRadarGlow)" opacity="0.9">
-      <animate attributeName="r" values="3;5;3" dur="3.4s" repeatCount="indefinite"/>
+    <circle cx="36" cy="564" r="2" fill="#6366F1">
+      <animate attributeName="opacity" values="0.2;0.5;0.2" dur="3.6s" repeatCount="indefinite"/>
     </circle>
   </g>
-  
-  <!-- Skill labels (8 categories) - positioned outside radar area -->
-  <g font-family="'Segoe UI', 'Arial', sans-serif" font-size="11" font-weight="600" fill="#ffffff" opacity="0.9">
-    <text x="250" y="20" text-anchor="middle" filter="url(#radarGlow)">Backend</text>
-    <text x="450" y="70" text-anchor="middle" filter="url(#radarGlow)">Mobile</text>
-    <text x="480" y="260" text-anchor="middle" filter="url(#radarGlow)">Frontend</text>
-    <text x="450" y="450" text-anchor="middle" filter="url(#radarGlow)">Database</text>
-    <text x="250" y="490" text-anchor="middle" filter="url(#radarGlow)">DevOps</text>
-    <text x="50" y="450" text-anchor="middle" filter="url(#radarGlow)">API</text>
-    <text x="20" y="260" text-anchor="middle" filter="url(#radarGlow)">Visualisasi</text>
-    <text x="50" y="70" text-anchor="middle" filter="url(#radarGlow)">IT Support</text>
-  </g>
-  
-  <!-- Skill values (percentages) - positioned between label and point -->
-  <g font-family="'Segoe UI', 'Arial', sans-serif" font-size="10" font-weight="700" fill="#818CF8" opacity="0.8">
-    <text x="250" y="50" text-anchor="middle" filter="url(#radarGlow)">85%</text>
-    <text x="410" y="100" text-anchor="middle" filter="url(#radarGlow)">80%</text>
-    <text x="460" y="250" text-anchor="middle" filter="url(#radarGlow)">75%</text>
-    <text x="410" y="400" text-anchor="middle" filter="url(#radarGlow)">80%</text>
-    <text x="250" y="420" text-anchor="middle" filter="url(#radarGlow)">75%</text>
-    <text x="90" y="400" text-anchor="middle" filter="url(#radarGlow)">80%</text>
-    <text x="40" y="250" text-anchor="middle" filter="url(#radarGlow)">70%</text>
-    <text x="90" y="100" text-anchor="middle" filter="url(#radarGlow)">85%</text>
-  </g>
-  
-  <!-- Animated particles -->
-  <g opacity="0.6">
-    <circle cx="100" cy="100" r="2" fill="#818CF8" filter="url(#radarGlow)">
-      <animate attributeName="cx" values="100;400;100" dur="20s" repeatCount="indefinite"/>
-      <animate attributeName="cy" values="100;400;100" dur="20s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="3s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="400" cy="400" r="2" fill="#FF6B6B" filter="url(#radarGlow)">
-      <animate attributeName="cx" values="400;100;400" dur="25s" repeatCount="indefinite"/>
-      <animate attributeName="cy" values="400;100;400" dur="25s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="4s" repeatCount="indefinite"/>
-    </circle>
-  </g>
-  
-  <style>
-    @keyframes fadeIn {
-      from { opacity: 0; }
-      to { opacity: 1; }
-    }
-  </style>
 </svg>
